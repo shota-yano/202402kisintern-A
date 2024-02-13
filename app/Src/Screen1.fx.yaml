@@ -1,7 +1,0 @@
-Screen1 As screen:
-
-    Rectangle1 As rectangle:
-        X: =52
-        Y: =20
-        ZIndex: =1
-
