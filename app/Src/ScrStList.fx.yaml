@@ -1,2 +1,26 @@
 ScrStList As screen:
 
+    ScrStListRectangle1 As rectangle:
+        Height: =105
+        Width: =638
+        X: =2
+        Y: =2
+        ZIndex: =1
+
+    ScrStListLabel1 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =67
+        Size: =30
+        Text: ="入荷情報"
+        Width: =502
+        X: =95
+        Y: =21
+        ZIndex: =2
+
+    ScrStListIcon1 As icon.BackArrow:
+        Color: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.BackArrow
+        X: =31
+        Y: =19
+        ZIndex: =3
+
