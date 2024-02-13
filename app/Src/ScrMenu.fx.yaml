@@ -21,7 +21,7 @@ ScrMenu As screen:
         Y: =18
         ZIndex: =3
 
-    ScrMenuButton1 As button:
+    ScrMenuInvButton1 As button:
         Color: =RGBA(0, 0, 0, 1)
         Fill: =RGBA(175, 191, 224, 1)
         Height: =152
