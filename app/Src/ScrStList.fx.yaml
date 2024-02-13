@@ -7,17 +7,36 @@ ScrStList As screen:
 
     ScrStListLabel1 As label:
         Color: =RGBA(255, 255, 255, 1)
-        Height: =70
+        Height: =110
         Size: =30
         Text: ="入荷情報"
-        Width: =560
-        X: =80
-        Y: =20
+        Width: =420
+        X: =115
         ZIndex: =2
 
     ScrStListIcon1 As icon.BackArrow:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =110
         Icon: =Icon.BackArrow
-        X: =16
-        Y: =26
+        OnSelect: =Back(ScreenTransition.UnCover)
+        PaddingBottom: =10
+        PaddingLeft: =10
+        PaddingRight: =10
+        PaddingTop: =10
+        Width: =115
         ZIndex: =3
+
+    ScrStListIcon3 As icon.Add:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =104
+        Icon: =Icon.Add
+        OnSelect: =Navigate(ScrStCreate,ScreenTransition.UnCover)
+        PaddingBottom: =10
+        PaddingLeft: =10
+        PaddingRight: =10
+        PaddingTop: =10
+        Width: =104
+        X: =535
+        Y: =6
+        ZIndex: =4
 
