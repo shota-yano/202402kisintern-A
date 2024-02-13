@@ -1,2 +1,9 @@
 ScrStList As screen:
 
+    ScrStListRectangle1 As rectangle:
+        Height: =106
+        Width: =634
+        X: =6
+        Y: =4
+        ZIndex: =1
+
