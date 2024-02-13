@@ -1,90 +1,26 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {
-    "App": 1,
-    "Host": 3,
-    "ScrInvList": 5,
-    "ScrMenu": 6,
-    "ScrShCreate": 7,
-    "ScrShList": 8,
-    "ScrShReport": 9,
-    "ScrStCreate": 10,
-    "ScrStList": 11,
-    "ScrStListIcon1": 14,
-    "ScrStListLabel1": 13,
-    "ScrStListRectangle1": 12,
-    "ScrStReport": 4
-  },
+  "ControlUniqueIds": {},
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/13/2024 03:44:28",
   "IsLegacyComponentAllowGlobalScopeCase": false,
-  "LocalConnectionIDReferences": {
-    "83fe7aca-1f01-46b6-8d6c-317247d76807": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/ea096e8b660945c38ff44513529cfc63\""
-  },
+  "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {
-    "在庫テーブル": 2,
-    "出荷テーブル": 1,
-    "入荷テーブル": 0
-  },
+  "OrderDataSource": {},
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {
-    "icon": 2,
-    "label": 1,
-    "rectangle": 0
-  },
-  "OverridablePropertiesEntry": {
-    "App": {},
-    "Host": {},
-    "ScrInvList": {},
-    "ScrMenu": {},
-    "ScrShCreate": {},
-    "ScrShList": {},
-    "ScrShReport": {},
-    "ScrStCreate": {},
-    "ScrStList": {},
-    "ScrStListIcon1": {},
-    "ScrStListLabel1": {},
-    "ScrStListRectangle1": {},
-    "ScrStReport": {}
-  },
+  "OrderXMLTemplate": {},
+  "OverridablePropertiesEntry": {},
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {
-    "App": 0,
-    "Host": 0,
-    "ScrInvList": 3,
-    "ScrMenu": 4,
-    "ScrShCreate": 5,
-    "ScrShList": 6,
-    "ScrShReport": 7,
-    "ScrStCreate": 8,
-    "ScrStList": 9,
-    "ScrStListIcon1": 12,
-    "ScrStListLabel1": 11,
-    "ScrStListRectangle1": 10,
-    "ScrStReport": 13
-  },
+  "PublishOrderIndices": {},
   "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {},
-  "VolatileProperties": {
-    "AnalysisLoadTime": 0.0340824,
-    "ControlCount": {
-      "icon": 1,
-      "label": 1,
-      "rectangle": 1,
-      "screen": 8
-    },
-    "DeserializationLoadTime": 0.0504461
-  },
-  "WasLocalDatabaseReferencesEmpty": true
+  "TemplateVersions": {}
 }
