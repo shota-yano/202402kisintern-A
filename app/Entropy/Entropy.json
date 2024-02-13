@@ -1,26 +1,68 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Host": 3,
+    "Rectangle1": 5,
+    "Rectangle2": 6,
+    "Screen1": 4,
+    "Screen2": 7,
+    "Screen3": 8
+  },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "02/13/2024 01:50:51",
   "IsLegacyComponentAllowGlobalScopeCase": false,
-  "LocalConnectionIDReferences": {},
+  "LocalConnectionIDReferences": {
+    "83fe7aca-1f01-46b6-8d6c-317247d76807": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/ea096e8b660945c38ff44513529cfc63\""
+  },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "在庫テーブル": 2,
+    "出荷テーブル": 1,
+    "入荷テーブル": 0
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
-  "OverridablePropertiesEntry": {},
+  "OrderXMLTemplate": {
+    "rectangle": 0
+  },
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "Host": {},
+    "Rectangle1": {},
+    "Rectangle2": {},
+    "Screen1": {},
+    "Screen2": {},
+    "Screen3": {}
+  },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "Host": 0,
+    "Rectangle1": 4,
+    "Rectangle2": 5,
+    "Screen1": 3,
+    "Screen2": 6,
+    "Screen3": 7
+  },
   "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {}
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0186435,
+    "ControlCount": {
+      "rectangle": 2,
+      "screen": 3
+    },
+    "DeserializationLoadTime": 0.0513307
+  },
+  "WasLocalDatabaseReferencesEmpty": true
 }
