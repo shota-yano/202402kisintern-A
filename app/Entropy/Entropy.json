@@ -1,75 +1,26 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {
-    "App": 1,
-    "Host": 3,
-    "ScrInvList": 6,
-    "ScrMenu": 4,
-    "ScrShCreate": 12,
-    "ScrShList": 11,
-    "ScrShReport": 13,
-    "ScrStCreate": 9,
-    "ScrStList": 8,
-    "ScrStReport": 10
-  },
+  "ControlUniqueIds": {},
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/13/2024 01:57:46",
   "IsLegacyComponentAllowGlobalScopeCase": false,
-  "LocalConnectionIDReferences": {
-    "83fe7aca-1f01-46b6-8d6c-317247d76807": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/bfd29ea632274f208d84826c03caae6f\""
-  },
+  "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {
-    "在庫テーブル": 2,
-    "出荷テーブル": 1,
-    "入荷テーブル": 0
-  },
+  "OrderDataSource": {},
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {},
-  "OverridablePropertiesEntry": {
-    "App": {},
-    "Host": {},
-    "ScrInvList": {},
-    "ScrMenu": {},
-    "ScrShCreate": {},
-    "ScrShList": {},
-    "ScrShReport": {},
-    "ScrStCreate": {},
-    "ScrStList": {},
-    "ScrStReport": {}
-  },
+  "OverridablePropertiesEntry": {},
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {
-    "App": 0,
-    "Host": 0,
-    "ScrInvList": 5,
-    "ScrMenu": 3,
-    "ScrShCreate": 0,
-    "ScrShList": 0,
-    "ScrShReport": 0,
-    "ScrStCreate": 0,
-    "ScrStList": 0,
-    "ScrStReport": 0
-  },
+  "PublishOrderIndices": {},
   "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {},
-  "VolatileProperties": {
-    "AnalysisLoadTime": 0.0135166,
-    "ControlCount": {
-      "rectangle": 2,
-      "screen": 2
-    },
-    "DeserializationLoadTime": 0.0345603
-  },
-  "WasLocalDatabaseReferencesEmpty": true
+  "TemplateVersions": {}
 }
