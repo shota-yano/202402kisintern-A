@@ -1,2 +1,32 @@
 ScrShList As screen:
 
+    Rectangle1 As rectangle:
+        Width: =640
+        ZIndex: =1
+
+    Icon1 As icon.BackArrow:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =100
+        Icon: =Icon.BackArrow
+        PaddingBottom: =10
+        PaddingTop: =10
+        Width: =100
+        ZIndex: =2
+
+    Label1 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =100
+        Size: =21
+        Text: ="出荷情報"
+        Width: =304
+        X: =100
+        ZIndex: =3
+
+    Icon2 As icon.Add:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =100
+        Icon: =Icon.Add
+        Width: =100
+        X: =475
+        ZIndex: =4
+
