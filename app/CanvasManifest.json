@@ -134,7 +134,13 @@
     "UserLocale": "ja-JP"
   },
   "ScreenOrder": [
-    "Screen1",
-    "Screen2"
+    "ScrMenu",
+    "ScrInvList",
+    "ScrStList",
+    "ScrStCreate",
+    "ScrStReport",
+    "ScrShList",
+    "ScrShCreate",
+    "ScrShReport"
   ]
 }
