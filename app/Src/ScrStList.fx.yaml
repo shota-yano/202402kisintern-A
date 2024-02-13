@@ -5,7 +5,7 @@ ScrStList As screen:
         Width: =640
         ZIndex: =1
 
-    "ScrStListGallery1 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver5.0'":
+    "ScrStListGallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
         DelayItemLoading: =true
         Height: =963
         Items: =入荷テーブル
