@@ -1,10 +1,5 @@
 ScrStList As screen:
 
-    ScrStListRectangle1 As rectangle:
-        Height: =110
-        Width: =640
-        ZIndex: =1
-
     "ScrStListGallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
         DelayItemLoading: =true
         Height: =963
@@ -76,6 +71,11 @@ ScrStList As screen:
             Visible: =ThisItem.IsSelected
             Width: =4
             ZIndex: =5
+
+    ScrStListRectangle1 As rectangle:
+        Height: =110
+        Width: =640
+        ZIndex: =1
 
     ScrStListLabel1 As label:
         Color: =RGBA(255, 255, 255, 1)
