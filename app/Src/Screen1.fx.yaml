@@ -5,3 +5,8 @@ Screen1 As screen:
         Y: =20
         ZIndex: =1
 
+    Rectangle2 As rectangle:
+        X: =236
+        Y: =286
+        ZIndex: =2
+
