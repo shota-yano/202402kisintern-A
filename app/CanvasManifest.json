@@ -97,7 +97,7 @@
       "usenonblockingonstartrule": true,
       "userdefinedfunctions": false,
       "webbarcodescanner": false,
-      "zeroalltabindexes": true
+      "zeroalltabindexes": false
     },
     "Author": "",
     "BindingErrorCount": 0,
@@ -116,7 +116,7 @@
     "Id": "5919918f-4377-4bb7-b821-e8978b53bb4e",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
-    "ManualOfflineProfileId": null,
+    "ManualOfflineProfileId": "",
     "Name": "入出荷管理（チームA）",
     "OriginatingVersion": "1.336",
     "ParserErrorCount": 0,
