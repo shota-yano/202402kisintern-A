@@ -21,3 +21,36 @@ ScrMenu As screen:
         Y: =18
         ZIndex: =3
 
+    ScrMenuButton1 As button:
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(175, 191, 224, 1)
+        Height: =152
+        Size: =30
+        Text: ="在庫情報"
+        Width: =529
+        X: =55
+        Y: =216
+        ZIndex: =4
+
+    ScrMenuButton2 As button:
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(175, 191, 224, 1)
+        Height: =152
+        Size: =30
+        Text: ="入荷情報"
+        Width: =529
+        X: =55
+        Y: =491
+        ZIndex: =5
+
+    ScrMenuButton3 As button:
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(175, 191, 224, 1)
+        Height: =152
+        Size: =30
+        Text: ="出荷情報"
+        Width: =529
+        X: =55
+        Y: =768
+        ZIndex: =6
+
