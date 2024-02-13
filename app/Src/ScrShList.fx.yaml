@@ -1,6 +1,10 @@
 ScrShList As screen:
 
-    "ScrShListGallery1 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver5.0'":
+    ScrShListRectangle1 As rectangle:
+        Width: =640
+        ZIndex: =1
+
+    "ScrShListGallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
         DelayItemLoading: =true
         Height: =889
         Items: =出荷テーブル
@@ -9,10 +13,6 @@ ScrShList As screen:
         TemplatePadding: =0
         TemplateSize: =148
         Y: =221
-        ZIndex: =1
-
-    ScrShListRectangle1 As rectangle:
-        Width: =640
         ZIndex: =1
 
     ScrShListIcon1 As icon.BackArrow:

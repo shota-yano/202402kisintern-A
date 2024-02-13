@@ -112,14 +112,7 @@
     "ScrShListGallery1": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Items",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Items",
         "WrapCount",
         "TemplateSize",
         "TemplatePadding",
