@@ -49,6 +49,9 @@
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
       "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
       "parameterHints": {
+        "a4fa0d6d-f0c4-4ff6-a935-9768c60d0311": {
+          "value": "shared_teams"
+        },
         "workflowDisplayName": {
           "value": "出荷通知フロー"
         },
@@ -58,6 +61,9 @@
         }
       },
       "parameterHintsV2": {
+        "shared_teams": {
+          "value": "a4fa0d6d-f0c4-4ff6-a935-9768c60d0311"
+        },
         "workflowDisplayName": {
           "value": "出荷通知フロー"
         },
