@@ -100,7 +100,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 24,
+    "BindingErrorCount": 16,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "Phone",
@@ -115,7 +115,7 @@
     "FileID": "5919918f-4377-4bb7-b821-e8978b53bb4e",
     "Id": "5919918f-4377-4bb7-b821-e8978b53bb4e",
     "InstrumentationKey": "",
-    "LocalDatabaseReferences": "",
+    "LocalDatabaseReferences": "{}",
     "ManualOfflineProfileId": "",
     "Name": "入出荷管理（チームA）",
     "OriginatingVersion": "1.336",
