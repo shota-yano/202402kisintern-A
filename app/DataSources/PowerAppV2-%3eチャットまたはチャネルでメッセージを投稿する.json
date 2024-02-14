@@ -1,0 +1,10 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_logicflows",
+    "FlowNameId": "71720ee5-b1c6-4de7-9929-736abdeb1128",
+    "Name": "PowerAppV2->チャットまたはチャネルでメッセージを投稿する",
+    "ServiceKind": "ConnectedWadl",
+    "Type": "ServiceInfo",
+    "WorkflowEntityId": null
+  }
+]
