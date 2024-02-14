@@ -33,44 +33,6 @@ ScrStCreate As screen:
         Y: =100
         ZIndex: =4
 
-        オーダーNo_DataCard7 As typedDataCard.textualViewCard:
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="オーダーNo"
-            Default: =Last(入荷テーブル).オーダーNo + 1
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@入荷テーブル],DataSourceInfo.DisplayName,"オーダーNo")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =101
-            Required: =true
-            Width: =640
-            X: =0
-            Y: =0
-            ZIndex: =1
-
-            DataCardKey9 As label:
-                AutoHeight: =true
-                Height: =48
-                Size: =21
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue10 As label:
-                DisplayMode: =Parent.DisplayMode
-                Height: =34
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =21
-                Text: =Parent.Default
-                Width: =548
-                X: =63
-                Y: =49
-                ZIndex: =2
-
         ScrStCreate品目_DataCard1 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="品目"
@@ -618,6 +580,44 @@ ScrStCreate As screen:
                 Wrap: =false
                 Y: =ScrStCreateDataCardKey7.Y
                 ZIndex: =7
+
+        オーダーNo_DataCard7 As typedDataCard.textualViewCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="オーダーNo"
+            Default: =Last(入荷テーブル).オーダーNo + 1
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@入荷テーブル],DataSourceInfo.DisplayName,"オーダーNo")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =101
+            Required: =false
+            Width: =640
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            DataCardKey9 As label:
+                AutoHeight: =true
+                Height: =48
+                Size: =21
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue10 As label:
+                DisplayMode: =Parent.DisplayMode
+                Height: =34
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =21
+                Text: =Parent.Default
+                Width: =548
+                X: =63
+                Y: =49
+                ZIndex: =2
 
     ScrStCreateIcon1 As icon.Send:
         Color: =RGBA(255, 255, 255, 1)
