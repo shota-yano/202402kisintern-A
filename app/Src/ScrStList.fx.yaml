@@ -54,7 +54,7 @@ ScrStList As screen:
             Color: =RGBA(166, 166, 166, 1)
             Height: =50
             Icon: =Icon.ChevronRight
-            OnSelect: =Select(Parent)
+            OnSelect: =Navigate(ScrStReport,ScreenTransition.UnCover)
             PaddingBottom: =16
             PaddingLeft: =16
             PaddingRight: =16
