@@ -13,7 +13,7 @@ ScrStList As screen:
         LoadingSpinner: =LoadingSpinner.Data
         OnSelect: =Navigate(ScrStReport,ScreenTransition.UnCover)
         TemplatePadding: =0
-        TemplateSize: =90
+        TemplateSize: =152
         Y: =185
         ZIndex: =1
 
