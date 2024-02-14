@@ -45,7 +45,7 @@ ScrStCreate As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             MaxLength: =DataSourceInfo([@入荷テーブル], DataSourceInfo.MaxLength, "品目")
-            Required: =false
+            Required: =true
             Update: =ScrStCreateDataCardValue2.Text
             Width: =640
             X: =0
@@ -112,7 +112,7 @@ ScrStCreate As screen:
         ScrStCreate納入希望日_DataCard1 As typedDataCard.dateTimeEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="納入希望日"
-            Default: =Now()
+            Default: =Now()+1
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@入荷テーブル],DataSourceInfo.DisplayName,"納入希望日")
             Fill: =RGBA(0, 0, 0, 0)
@@ -216,7 +216,7 @@ ScrStCreate As screen:
         ScrStCreate発注日_DataCard1 As typedDataCard.dateTimeEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="発注日"
-            Default: =Now()+1
+            Default: =Now()
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@入荷テーブル],DataSourceInfo.DisplayName,"発注日")
             Fill: =RGBA(0, 0, 0, 0)
@@ -326,7 +326,7 @@ ScrStCreate As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             MaxLength: =DataSourceInfo([@入荷テーブル], DataSourceInfo.MaxLength, "発注数")
-            Required: =false
+            Required: =true
             Update: =ScrStCreateDataCardValue3.Text
             Width: =640
             X: =0
@@ -584,23 +584,23 @@ ScrStCreate As screen:
                 Y: =ScrStCreateDataCardKey7.Y
                 ZIndex: =7
 
-        オーダーNo_DataCard3 As typedDataCard.textualEditCard:
+        ScrStCreateオーダーNo_DataCard3 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="オーダーNo"
-            Default: =Max(入荷テーブル,オーダーNo)+1
+            Default: =Last(入荷テーブル).オーダーNo+1
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@入荷テーブル],DataSourceInfo.DisplayName,"オーダーNo")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             MaxLength: =DataSourceInfo([@入荷テーブル], DataSourceInfo.MaxLength, "オーダーNo")
             Required: =true
-            Update: =DataCardValue6.Text
+            Update: =ScrStCreateDataCardValue8.Text
             Width: =640
             X: =0
             Y: =0
             ZIndex: =1
 
-            DataCardKey6 As label:
+            ScrStCreateDataCardKey8 As label:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
@@ -611,11 +611,11 @@ ScrStCreate As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue6 As text:
+            ScrStCreateDataCardValue8 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =Parent.DisplayMode.View
                 Height: =70
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
@@ -627,10 +627,10 @@ ScrStCreate As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey6.Y + DataCardKey6.Height + 5
+                Y: =ScrStCreateDataCardKey8.Y + ScrStCreateDataCardKey8.Height + 5
                 ZIndex: =2
 
-            ErrorMessage2 As label:
+            ScrStCreateErrorMessage8 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -643,18 +643,18 @@ ScrStCreate As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue6.Y + DataCardValue6.Height
+                Y: =ScrStCreateDataCardValue8.Y + ScrStCreateDataCardValue8.Height
                 ZIndex: =3
 
-            StarVisible2 As label:
+            ScrStCreateStarVisible8 As label:
                 Align: =Align.Center
-                Height: =DataCardKey6.Height
+                Height: =ScrStCreateDataCardKey8.Height
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey6.Y
+                Y: =ScrStCreateDataCardKey8.Y
                 ZIndex: =4
 
     ScrStCreateIcon1 As icon.Send:
