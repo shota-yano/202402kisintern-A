@@ -29,6 +29,9 @@ ScrStCreate As screen:
         DataSource: =入荷テーブル
         DefaultMode: =FormMode.New
         Height: =1035
+        OnSuccess: |-
+            =入荷通知フロー.Run(ScrStCreateForm1.LastSubmit.オーダーNo,ScrStCreateForm1.LastSubmit.品目,ScrStCreateForm1.LastSubmit.発注数,ScrStCreateForm1.LastSubmit.納入希望日);
+            Back(ScreenTransition.UnCover)
         Width: =640
         Y: =100
         ZIndex: =4
@@ -46,7 +49,7 @@ ScrStCreate As screen:
             Update: =ScrStCreateDataCardValue2.Text
             Width: =640
             X: =0
-            Y: =0
+            Y: =1
             ZIndex: =1
 
             ScrStCreateDataCardKey2 As label:
@@ -118,7 +121,7 @@ ScrStCreate As screen:
             Update: =If(Not IsBlank(ScrStCreateDateValue1.SelectedDate), ScrStCreateDateValue1.SelectedDate + Value(ScrStCreateMinuteValue1.Selected.Value), 0)
             Width: =640
             X: =0
-            Y: =1
+            Y: =2
             ZIndex: =1
 
             ScrStCreateDataCardKey3 As label:
@@ -222,7 +225,7 @@ ScrStCreate As screen:
             Update: =If(Not IsBlank(ScrStCreateDateValue2.SelectedDate), ScrStCreateDateValue2.SelectedDate , Value(ScrStCreateMinuteValue2.Selected.Value), 0)
             Width: =640
             X: =0
-            Y: =2
+            Y: =3
             ZIndex: =1
 
             ScrStCreateDataCardKey4 As label:
@@ -327,7 +330,7 @@ ScrStCreate As screen:
             Update: =ScrStCreateDataCardValue3.Text
             Width: =640
             X: =0
-            Y: =3
+            Y: =4
             ZIndex: =1
 
             ScrStCreateDataCardKey5 As label:
@@ -400,7 +403,7 @@ ScrStCreate As screen:
             Update: =ScrStCreateDataCardValue4.Text
             Width: =640
             X: =0
-            Y: =4
+            Y: =5
             ZIndex: =1
 
             ScrStCreateDataCardKey6 As label:
@@ -472,7 +475,7 @@ ScrStCreate As screen:
             Update: =If(Not IsBlank(ScrStCreateDateValue3.SelectedDate), ScrStCreateDateValue3.SelectedDate + Time(Value(ScrStCreateHourValue3.Selected.Value), Value(ScrStCreateMinuteValue3.Selected.Value), 0))
             Width: =640
             X: =0
-            Y: =5
+            Y: =6
             ZIndex: =1
 
             ScrStCreateDataCardKey7 As label:
@@ -594,7 +597,7 @@ ScrStCreate As screen:
             Update: =DataCardValue6.Text
             Width: =640
             X: =0
-            Y: =6
+            Y: =0
             ZIndex: =1
 
             DataCardKey6 As label:
