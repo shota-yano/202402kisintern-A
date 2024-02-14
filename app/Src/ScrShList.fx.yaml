@@ -93,6 +93,7 @@ ScrShList As screen:
         Color: =RGBA(255, 255, 255, 1)
         Height: =100
         Icon: =Icon.BackArrow
+        OnSelect: =Back(ScreenTransition.Cover)
         PaddingBottom: =10
         PaddingTop: =10
         Width: =100
