@@ -252,7 +252,7 @@
       "MetaDataIDKey": "",
       "Name": "ScrShReportIcon1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -689,7 +689,7 @@
       "MetaDataIDKey": "",
       "Name": "ScrShReportLabel1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
