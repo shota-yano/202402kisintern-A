@@ -133,14 +133,7 @@
         "DisabledBorderColor",
         "PressedBorderColor",
         "HoverBorderColor",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "BorderStyle",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "BorderStyle",
         "FocusedBorderColor",
         {
           "AFDDataSourceName": "",
@@ -157,15 +150,7 @@
         "Y",
         "Width",
         "Height",
-        "ZIndex",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "BorderThickness",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        }
+        "ZIndex"
       ],
       "GalleryTemplateChildName": "galleryTemplate4",
       "HasDynamicProperties": false,
@@ -305,11 +290,6 @@
         {
           "Category": "Design",
           "PropertyName": "LoadingSpinnerColor",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "BorderThickness",
           "RuleProviderType": "Unknown"
         }
       ],
@@ -1763,14 +1743,7 @@
         "PressedFill",
         "HoverFill",
         "Font",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "FontWeight",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "FontWeight",
         "Align",
         "VerticalAlign",
         "X",
@@ -2046,14 +2019,7 @@
         "PressedFill",
         "HoverFill",
         "Font",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "FontWeight",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "FontWeight",
         "Align",
         "VerticalAlign",
         "X",
@@ -2322,14 +2288,7 @@
         "PressedFill",
         "HoverFill",
         "Font",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "FontWeight",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "FontWeight",
         "Align",
         "VerticalAlign",
         "X",
@@ -2605,14 +2564,7 @@
         "PressedFill",
         "HoverFill",
         "Font",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "FontWeight",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "FontWeight",
         "Align",
         "VerticalAlign",
         "X",
