@@ -23,16 +23,6 @@ ScrShReport As screen:
         X: =100
         ZIndex: =3
 
-    ScrShReportIcon2 As icon.Add:
-        Color: =RGBA(255, 255, 255, 1)
-        Height: =100
-        Icon: =Icon.Add
-        PaddingBottom: =10
-        PaddingTop: =10
-        Width: =100
-        X: =540
-        ZIndex: =4
-
     ScrShReportForm1 As form:
         DataSource: =出荷テーブル
         Height: =1034
@@ -580,4 +570,17 @@ ScrShReport As screen:
                 Wrap: =false
                 Y: =ScrShReport最終更新者DataCardKey.Y
                 ZIndex: =4
+
+    ScrStReportIcon1_1 As icon.Send:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =96
+        Icon: =Icon.Send
+        PaddingBottom: =10
+        PaddingLeft: =10
+        PaddingRight: =10
+        PaddingTop: =10
+        Width: =104
+        X: =536
+        Y: =5
+        ZIndex: =6
 
