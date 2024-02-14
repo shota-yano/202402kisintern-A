@@ -164,7 +164,7 @@ ScrShCreate As screen:
                 Size: =21
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
-                X: =16
+                X: =30
                 Y: =77
                 ZIndex: =2
 
