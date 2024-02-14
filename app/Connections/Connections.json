@@ -29,20 +29,6 @@
     "dependents": [],
     "id": "83fe7aca-1f01-46b6-8d6c-317247d76807"
   },
-  "9e40b163-24cf-4ac6-8d81-b498ac8f9a43": {
-    "connectionRef": {
-      "displayName": "Microsoft Teams",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1674/1.0.1674.3602/teams/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_teams"
-    },
-    "datasets": {},
-    "dataSources": [],
-    "dependencies": {},
-    "dependents": [
-      "b0bbeb87-8fbe-4f91-a752-3d73e5c558bd"
-    ],
-    "id": "9e40b163-24cf-4ac6-8d81-b498ac8f9a43"
-  },
   "a4fa0d6d-f0c4-4ff6-a935-9768c60d0311": {
     "connectionRef": {
       "displayName": "Microsoft Teams",
@@ -57,17 +43,14 @@
     ],
     "id": "a4fa0d6d-f0c4-4ff6-a935-9768c60d0311"
   },
-  "b0bbeb87-8fbe-4f91-a752-3d73e5c558bd": {
+  "b4de2280-9665-40bd-a162-9115d88ac5cb": {
     "connectionRef": {
       "displayName": "Logic flows",
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
       "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
       "parameterHints": {
-        "9e40b163-24cf-4ac6-8d81-b498ac8f9a43": {
-          "value": "shared_teams"
-        },
         "workflowDisplayName": {
-          "value": "PowerAppV2 -> チャットまたはチャネルでメッセージを投稿する"
+          "value": "入荷通知フロー"
         },
         "workflowEntityId": {},
         "workflowName": {
@@ -75,11 +58,8 @@
         }
       },
       "parameterHintsV2": {
-        "shared_teams": {
-          "value": "9e40b163-24cf-4ac6-8d81-b498ac8f9a43"
-        },
         "workflowDisplayName": {
-          "value": "PowerAppV2 -> チャットまたはチャネルでメッセージを投稿する"
+          "value": "入荷通知フロー"
         },
         "workflowEntityId": {},
         "workflowName": {
@@ -89,13 +69,13 @@
     },
     "datasets": {},
     "dataSources": [
-      "PowerAppV2->チャットまたはチャネルでメッセージを投稿する"
+      "入荷通知フロー"
     ],
     "dependencies": {
-      "shared_teams": "9e40b163-24cf-4ac6-8d81-b498ac8f9a43"
+      "shared_teams": "a4fa0d6d-f0c4-4ff6-a935-9768c60d0311"
     },
     "dependents": [],
-    "id": "b0bbeb87-8fbe-4f91-a752-3d73e5c558bd"
+    "id": "b4de2280-9665-40bd-a162-9115d88ac5cb"
   },
   "d3472f77-56b4-4443-91ba-ce2c1b1c8403": {
     "connectionRef": {
@@ -103,9 +83,6 @@
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
       "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
       "parameterHints": {
-        "a4fa0d6d-f0c4-4ff6-a935-9768c60d0311": {
-          "value": "shared_teams"
-        },
         "workflowDisplayName": {
           "value": "出荷通知フロー"
         },
@@ -115,9 +92,6 @@
         }
       },
       "parameterHintsV2": {
-        "shared_teams": {
-          "value": "a4fa0d6d-f0c4-4ff6-a935-9768c60d0311"
-        },
         "workflowDisplayName": {
           "value": "出荷通知フロー"
         },
