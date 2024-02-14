@@ -7997,7 +7997,7 @@
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "ScrStReportオーダー入荷日DataCardKey",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8298,7 +8298,7 @@
       "MetaDataIDKey": "%DateFieldValue.ID%",
       "Name": "ScrStReportオーダー入荷日DateValue",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 4,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8605,7 +8605,7 @@
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ScrStReportオーダー入荷日ErrorMessage",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8879,7 +8879,7 @@
       "MetaDataIDKey": "%HourMinuteSeparator.ID%",
       "Name": "ScrStReportオーダー入荷日Separator",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -9156,7 +9156,7 @@
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "ScrStReportオーダー入荷日StarVisible",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
