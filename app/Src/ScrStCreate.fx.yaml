@@ -28,6 +28,7 @@ ScrStCreate As screen:
 
     ScrStCreateForm1 As form:
         DataSource: =入荷テーブル
+        DefaultMode: =FormMode.New
         Height: =1035
         Width: =640
         Y: =100
