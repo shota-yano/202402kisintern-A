@@ -136,6 +136,7 @@ ScrInvList As screen:
     ScrInvListIcon1 As icon.BackArrow:
         Color: =RGBA(255, 255, 255, 1)
         Icon: =Icon.BackArrow
+        OnSelect: =Back(ScreenTransition.UnCover)
         X: =16
         Y: =18
         ZIndex: =3
@@ -147,8 +148,9 @@ ScrInvList As screen:
         ZIndex: =4
 
     ScrInvListTextInput1 As text:
-        Default: ="検索したい品目を入力"
+        Default: =""
         Height: =70
+        HintText: ="検索したい品目を入力"
         Size: =21
         Width: =560
         X: =80
