@@ -14,635 +14,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportForm発注日_DataCard.ScrStReportForm発注日_DataCardValue4.Y"
+                  "fullyQualifiedName": "ScrStReport.ScrStReportIcon3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportForm発注日_DataCard.ScrStReportForm発注日_DataCardValue4.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 12,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataCardKey4"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "ScrStReport",
-                "type": "ScrStReport.ScrStReportForm.ScrStReportForm発注日_DataCard.ScrStReportForm発注日_DataCardValue4"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardKey4"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportForm発注日_DataCard.ScrStReportForm発注日_DataCardValue4.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportForm発注日_DataCard.ScrStReportForm発注日_DataCardValue4.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 12,
-                  "snippet": {
-                    "text": ".Y"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "ScrStReport",
-                "type": "ScrStReport.ScrStReportForm.ScrStReportForm発注日_DataCard.ScrStReportForm発注日_DataCardValue4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportForm発注日_DataCard.ScrStReportForm発注日_DataCardValue4.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportForm発注日_DataCard.ScrStReportForm発注日_DataCardValue4.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 12,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "DataCardKey4"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "ScrStReport",
-                "type": "ScrStReport.ScrStReportForm.ScrStReportForm発注日_DataCard.ScrStReportForm発注日_DataCardValue4"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardKey4"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportForm発注日_DataCard.ScrStReportForm発注日_DataCardValue4.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportForm発注日_DataCard.ScrStReportForm発注日_DataCardValue4.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 29,
-                  "snippet": {
-                    "text": ".Height"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "ScrStReport",
-                "type": "ScrStReport.ScrStReportForm.ScrStReportForm発注日_DataCard.ScrStReportForm発注日_DataCardValue4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日Separator.X"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日Separator.X",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 27,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ScrStReportオーダー入荷日HourValue"
-                  }
-                }
-              },
-              "properties": {
-                "member": "X",
-                "module": "ScrStReport",
-                "type": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日Separator"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ScrStReportオーダー入荷日HourValue"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日Separator.X"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日Separator.X",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 27,
-                  "snippet": {
-                    "text": ".X"
-                  }
-                }
-              },
-              "properties": {
-                "member": "X",
-                "module": "ScrStReport",
-                "type": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日Separator"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日Separator.X"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日Separator.X",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 27,
-                  "charOffset": 32,
-                  "snippet": {
-                    "text": "ScrStReportオーダー入荷日HourValue"
-                  }
-                }
-              },
-              "properties": {
-                "member": "X",
-                "module": "ScrStReport",
-                "type": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日Separator"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ScrStReportオーダー入荷日HourValue"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日Separator.X"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日Separator.X",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 59,
-                  "snippet": {
-                    "text": ".Width"
-                  }
-                }
-              },
-              "properties": {
-                "member": "X",
-                "module": "ScrStReport",
-                "type": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日Separator"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日Separator.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日Separator.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 27,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ScrStReportオーダー入荷日HourValue"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "ScrStReport",
-                "type": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日Separator"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ScrStReportオーダー入荷日HourValue"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日Separator.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日Separator.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 27,
-                  "snippet": {
-                    "text": ".Y"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "ScrStReport",
-                "type": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日Separator"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日Separator.Height"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日Separator.Height",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 27,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ScrStReportオーダー入荷日HourValue"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Height",
-                "module": "ScrStReport",
-                "type": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日Separator"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ScrStReportオーダー入荷日HourValue"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日Separator.Height"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日Separator.Height",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 27,
-                  "snippet": {
-                    "text": ".Height"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Height",
-                "module": "ScrStReport",
-                "type": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日Separator"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日ErrorMessage.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日ErrorMessage.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 27,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ScrStReportオーダー入荷日HourValue"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "ScrStReport",
-                "type": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日ErrorMessage"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ScrStReportオーダー入荷日HourValue"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日ErrorMessage.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日ErrorMessage.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 27,
-                  "snippet": {
-                    "text": ".Y"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "ScrStReport",
-                "type": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日ErrorMessage"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日ErrorMessage.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日ErrorMessage.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 27,
-                  "charOffset": 32,
-                  "snippet": {
-                    "text": "ScrStReportオーダー入荷日HourValue"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "ScrStReport",
-                "type": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日ErrorMessage"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ScrStReportオーダー入荷日HourValue"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日ErrorMessage.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日ErrorMessage.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 59,
-                  "snippet": {
-                    "text": ".Height"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "ScrStReport",
-                "type": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日ErrorMessage"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportIcon1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportIcon1.AccessibleLabel",
+                  "fullyQualifiedName": "ScrStReport.ScrStReportIcon3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ScrStReport",
-                "type": "ScrStReport.ScrStReportIcon1"
+                "type": "ScrStReport.ScrStReportIcon3"
               }
             }
           ],
@@ -653,26 +37,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportIcon1.TabIndex"
+                  "fullyQualifiedName": "ScrStReport.ScrStReportIcon3.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportIcon1.TabIndex",
+                  "fullyQualifiedName": "ScrStReport.ScrStReportIcon3.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "ScrStReport",
-                "type": "ScrStReport.ScrStReportIcon1"
+                "type": "ScrStReport.ScrStReportIcon3"
               }
             }
           ],
@@ -683,247 +67,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportIcon.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportIcon.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrStReport",
-                "type": "ScrStReport.ScrStReportIcon"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportIcon.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportIcon.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "ScrStReport",
-                "type": "ScrStReport.ScrStReportIcon"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷数.ScrStReportオーダー入荷数DataCardValue.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷数.ScrStReportオーダー入荷数DataCardValue.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrStReport",
-                "type": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷数.ScrStReportオーダー入荷数DataCardValue"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日DateValue.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日DateValue.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrStReport",
-                "type": "ScrStReport.ScrStReportForm.ScrStReportオーダー入荷日.ScrStReportオーダー入荷日DateValue"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー最終更新日.ScrStReportオーダー最終更新日DateValue.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー最終更新日.ScrStReportオーダー最終更新日DateValue.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrStReport",
-                "type": "ScrStReport.ScrStReportForm.ScrStReportオーダー最終更新日.ScrStReportオーダー最終更新日DateValue"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー最終更新日.ScrStReportオーダー最終更新日HourValue.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー最終更新日.ScrStReportオーダー最終更新日HourValue.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrStReport",
-                "type": "ScrStReport.ScrStReportForm.ScrStReportオーダー最終更新日.ScrStReportオーダー最終更新日HourValue"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー最終更新日.ScrStReportオーダー最終更新日MinuteValue.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー最終更新日.ScrStReportオーダー最終更新日MinuteValue.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrStReport",
-                "type": "ScrStReport.ScrStReportForm.ScrStReportオーダー最終更新日.ScrStReportオーダー最終更新日MinuteValue"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー最終更新者.ScrStReportオーダー最終更新者DataCardValue.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.ScrStReportオーダー最終更新者.ScrStReportオーダー最終更新者DataCardValue.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrStReport",
-                "type": "ScrStReport.ScrStReportForm.ScrStReportオーダー最終更新者.ScrStReportオーダー最終更新者DataCardValue"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -953,7 +97,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -983,7 +127,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1013,7 +157,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1043,7 +187,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1073,7 +217,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1103,7 +247,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1133,337 +277,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrShCreate.ScrShCreateForm1.ScrShCreate出荷指示数_DataCard1.ScrShCreateDataCardValue2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrShCreate.ScrShCreateForm1.ScrShCreate出荷指示数_DataCard1.ScrShCreateDataCardValue2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrShCreate",
-                "type": "ScrShCreate.ScrShCreateForm1.ScrShCreate出荷指示数_DataCard1.ScrShCreateDataCardValue2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrShCreate.ScrShCreateForm1.ScrShCreate品目_DataCard1.ScrShCreateDataCardValue4.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrShCreate.ScrShCreateForm1.ScrShCreate品目_DataCard1.ScrShCreateDataCardValue4.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrShCreate",
-                "type": "ScrShCreate.ScrShCreateForm1.ScrShCreate品目_DataCard1.ScrShCreateDataCardValue4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrShCreate.ScrShCreateForm1.ScrShCreate最終更新日_DataCard1.ScrShCreateDateValue2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrShCreate.ScrShCreateForm1.ScrShCreate最終更新日_DataCard1.ScrShCreateDateValue2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrShCreate",
-                "type": "ScrShCreate.ScrShCreateForm1.ScrShCreate最終更新日_DataCard1.ScrShCreateDateValue2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrShCreate.ScrShCreateForm1.ScrShCreate最終更新日_DataCard1.ScrShCreateHourValue2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrShCreate.ScrShCreateForm1.ScrShCreate最終更新日_DataCard1.ScrShCreateHourValue2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrShCreate",
-                "type": "ScrShCreate.ScrShCreateForm1.ScrShCreate最終更新日_DataCard1.ScrShCreateHourValue2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrShCreate.ScrShCreateForm1.ScrShCreate最終更新日_DataCard1.ScrShCreateMinuteValue2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrShCreate.ScrShCreateForm1.ScrShCreate最終更新日_DataCard1.ScrShCreateMinuteValue2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrShCreate",
-                "type": "ScrShCreate.ScrShCreateForm1.ScrShCreate最終更新日_DataCard1.ScrShCreateMinuteValue2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrShCreate.ScrShCreateForm1.ScrShCreate最終更新者_DataCard3.ScrShCreateDataCardValue11.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrShCreate.ScrShCreateForm1.ScrShCreate最終更新者_DataCard3.ScrShCreateDataCardValue11.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrShCreate",
-                "type": "ScrShCreate.ScrShCreateForm1.ScrShCreate最終更新者_DataCard3.ScrShCreateDataCardValue11"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrShCreate.ScrShCreateForm1.ScrShCreate登録日_DataCard1.ScrShCreateDateValue3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrShCreate.ScrShCreateForm1.ScrShCreate登録日_DataCard1.ScrShCreateDateValue3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrShCreate",
-                "type": "ScrShCreate.ScrShCreateForm1.ScrShCreate登録日_DataCard1.ScrShCreateDateValue3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrShCreate.ScrShCreateForm1.ScrShCreate登録日_DataCard1.ScrShCreateHourValue3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrShCreate.ScrShCreateForm1.ScrShCreate登録日_DataCard1.ScrShCreateHourValue3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrShCreate",
-                "type": "ScrShCreate.ScrShCreateForm1.ScrShCreate登録日_DataCard1.ScrShCreateHourValue3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrShCreate.ScrShCreateForm1.ScrShCreate登録日_DataCard1.ScrShCreateMinuteValue3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrShCreate.ScrShCreateForm1.ScrShCreate登録日_DataCard1.ScrShCreateMinuteValue3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrShCreate",
-                "type": "ScrShCreate.ScrShCreateForm1.ScrShCreate登録日_DataCard1.ScrShCreateMinuteValue3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrShCreate.ScrShCreateIcon2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrShCreate.ScrShCreateIcon2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrShCreate",
-                "type": "ScrShCreate.ScrShCreateIcon2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrShCreate.ScrShCreateIcon2.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrShCreate.ScrShCreateIcon2.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "ScrShCreate",
-                "type": "ScrShCreate.ScrShCreateIcon2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1493,7 +307,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1523,7 +337,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1553,7 +367,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1583,7 +397,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1613,7 +427,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1643,7 +457,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1673,7 +487,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1703,7 +517,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1733,7 +547,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1763,7 +577,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1793,7 +607,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1823,7 +637,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1853,7 +667,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1883,7 +697,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1913,7 +727,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1943,7 +757,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1973,307 +787,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate品目_DataCard1.ScrStCreateDataCardValue2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate品目_DataCard1.ScrStCreateDataCardValue2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrStCreate",
-                "type": "ScrStCreate.ScrStCreateForm1.ScrStCreate品目_DataCard1.ScrStCreateDataCardValue2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate納入希望日_DataCard1.ScrStCreateDateValue1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate納入希望日_DataCard1.ScrStCreateDateValue1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrStCreate",
-                "type": "ScrStCreate.ScrStCreateForm1.ScrStCreate納入希望日_DataCard1.ScrStCreateDateValue1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate納入希望日_DataCard1.ScrStCreateMinuteValue1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate納入希望日_DataCard1.ScrStCreateMinuteValue1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrStCreate",
-                "type": "ScrStCreate.ScrStCreateForm1.ScrStCreate納入希望日_DataCard1.ScrStCreateMinuteValue1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate発注日_DataCard1.ScrStCreateDateValue2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate発注日_DataCard1.ScrStCreateDateValue2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrStCreate",
-                "type": "ScrStCreate.ScrStCreateForm1.ScrStCreate発注日_DataCard1.ScrStCreateDateValue2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate発注日_DataCard1.ScrStCreateMinuteValue2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate発注日_DataCard1.ScrStCreateMinuteValue2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrStCreate",
-                "type": "ScrStCreate.ScrStCreateForm1.ScrStCreate発注日_DataCard1.ScrStCreateMinuteValue2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate発注数_DataCard1.ScrStCreateDataCardValue3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate発注数_DataCard1.ScrStCreateDataCardValue3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrStCreate",
-                "type": "ScrStCreate.ScrStCreateForm1.ScrStCreate発注数_DataCard1.ScrStCreateDataCardValue3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate最終更新者_DataCard1.ScrStCreateDataCardValue4.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate最終更新者_DataCard1.ScrStCreateDataCardValue4.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrStCreate",
-                "type": "ScrStCreate.ScrStCreateForm1.ScrStCreate最終更新者_DataCard1.ScrStCreateDataCardValue4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate最終更新日_DataCard1.ScrStCreateDateValue3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate最終更新日_DataCard1.ScrStCreateDateValue3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrStCreate",
-                "type": "ScrStCreate.ScrStCreateForm1.ScrStCreate最終更新日_DataCard1.ScrStCreateDateValue3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate最終更新日_DataCard1.ScrStCreateHourValue3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate最終更新日_DataCard1.ScrStCreateHourValue3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrStCreate",
-                "type": "ScrStCreate.ScrStCreateForm1.ScrStCreate最終更新日_DataCard1.ScrStCreateHourValue3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate最終更新日_DataCard1.ScrStCreateMinuteValue3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate最終更新日_DataCard1.ScrStCreateMinuteValue3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrStCreate",
-                "type": "ScrStCreate.ScrStCreateForm1.ScrStCreate最終更新日_DataCard1.ScrStCreateMinuteValue3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2303,7 +817,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2333,67 +847,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStCreate.ScrStCreateIcon1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStCreate.ScrStCreateIcon1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrStCreate",
-                "type": "ScrStCreate.ScrStCreateIcon1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStCreate.ScrStCreateIcon1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStCreate.ScrStCreateIcon1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "ScrStCreate",
-                "type": "ScrStCreate.ScrStCreateIcon1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -2423,7 +877,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2453,7 +907,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -2483,7 +937,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2513,7 +967,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -2543,7 +997,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2573,7 +1027,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2603,7 +1057,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -2633,26 +1087,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.Item"
+                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreateオーダーNo_DataCard1.ScrStCreateDataCardValue1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScrStReport.ScrStReportForm.Item",
+                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreateオーダーNo_DataCard1.ScrStCreateDataCardValue1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "Item",
-                "module": "ScrStReport",
-                "type": "ScrStReport.ScrStReportForm"
+                "member": "AccessibleLabel",
+                "module": "ScrStCreate",
+                "type": "ScrStCreate.ScrStCreateForm1.ScrStCreateオーダーNo_DataCard1.ScrStCreateDataCardValue1"
               }
             }
           ],
@@ -2662,27 +1116,27 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 4
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScrShReport.ScrShReportForm1.Item"
+                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate品目_DataCard1.ScrStCreateDataCardValue2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScrShReport.ScrShReportForm1.Item",
+                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate品目_DataCard1.ScrStCreateDataCardValue2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "Item",
-                "module": "ScrShReport",
-                "type": "ScrShReport.ScrShReportForm1"
+                "member": "AccessibleLabel",
+                "module": "ScrStCreate",
+                "type": "ScrStCreate.ScrStCreateForm1.ScrStCreate品目_DataCard1.ScrStCreateDataCardValue2"
               }
             }
           ],
@@ -2692,8 +1146,338 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 4
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate納入希望日_DataCard1.ScrStCreateDateValue1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate納入希望日_DataCard1.ScrStCreateDateValue1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScrStCreate",
+                "type": "ScrStCreate.ScrStCreateForm1.ScrStCreate納入希望日_DataCard1.ScrStCreateDateValue1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate納入希望日_DataCard1.ScrStCreateHourValue1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate納入希望日_DataCard1.ScrStCreateHourValue1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScrStCreate",
+                "type": "ScrStCreate.ScrStCreateForm1.ScrStCreate納入希望日_DataCard1.ScrStCreateHourValue1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate納入希望日_DataCard1.ScrStCreateMinuteValue1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate納入希望日_DataCard1.ScrStCreateMinuteValue1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScrStCreate",
+                "type": "ScrStCreate.ScrStCreateForm1.ScrStCreate納入希望日_DataCard1.ScrStCreateMinuteValue1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate発注日_DataCard1.ScrStCreateDateValue2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate発注日_DataCard1.ScrStCreateDateValue2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScrStCreate",
+                "type": "ScrStCreate.ScrStCreateForm1.ScrStCreate発注日_DataCard1.ScrStCreateDateValue2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate発注日_DataCard1.ScrStCreateHourValue2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate発注日_DataCard1.ScrStCreateHourValue2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScrStCreate",
+                "type": "ScrStCreate.ScrStCreateForm1.ScrStCreate発注日_DataCard1.ScrStCreateHourValue2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate発注日_DataCard1.ScrStCreateMinuteValue2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate発注日_DataCard1.ScrStCreateMinuteValue2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScrStCreate",
+                "type": "ScrStCreate.ScrStCreateForm1.ScrStCreate発注日_DataCard1.ScrStCreateMinuteValue2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate発注数_DataCard1.ScrStCreateDataCardValue3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate発注数_DataCard1.ScrStCreateDataCardValue3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScrStCreate",
+                "type": "ScrStCreate.ScrStCreateForm1.ScrStCreate発注数_DataCard1.ScrStCreateDataCardValue3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate最終更新者_DataCard1.ScrStCreateDataCardValue4.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate最終更新者_DataCard1.ScrStCreateDataCardValue4.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScrStCreate",
+                "type": "ScrStCreate.ScrStCreateForm1.ScrStCreate最終更新者_DataCard1.ScrStCreateDataCardValue4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate最終更新日_DataCard1.ScrStCreateDateValue3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate最終更新日_DataCard1.ScrStCreateDateValue3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScrStCreate",
+                "type": "ScrStCreate.ScrStCreateForm1.ScrStCreate最終更新日_DataCard1.ScrStCreateDateValue3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate最終更新日_DataCard1.ScrStCreateHourValue3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate最終更新日_DataCard1.ScrStCreateHourValue3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScrStCreate",
+                "type": "ScrStCreate.ScrStCreateForm1.ScrStCreate最終更新日_DataCard1.ScrStCreateHourValue3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate最終更新日_DataCard1.ScrStCreateMinuteValue3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScrStCreate.ScrStCreateForm1.ScrStCreate最終更新日_DataCard1.ScrStCreateMinuteValue3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScrStCreate",
+                "type": "ScrStCreate.ScrStCreateForm1.ScrStCreate最終更新日_DataCard1.ScrStCreateMinuteValue3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
         }
       ],
       "tool": {
@@ -2701,37 +1485,6 @@
           "fullName": "PowerApps app checker",
           "name": "PowerApps app checker",
           "rules": [
-            {
-              "id": "app-ErrInvalidName",
-              "messageStrings": {
-                "issue": {
-                  "text": "Name isn't valid. '{0}' isn't recognized."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Remove or correct the reference to the name that isn't valid."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrInvalidDot",
-              "messageStrings": {
-                "issue": {
-                  "text": "Invalid use of '.'"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
             {
               "id": "acc-AccessibleLabelNeeded",
               "messageStrings": {
@@ -2764,23 +1517,6 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "People who use the keyboard with your app will not be able to access this element without a tab stop."
-              }
-            },
-            {
-              "id": "app-InefficientDelayLoading",
-              "messageStrings": {
-                "issue": {
-                  "text": "非効率な遅延読み込み"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "画面間で状態を共有するには、代わりに、変数、コレクション、ナビゲーション コンテキストを使用してください。"
-                ],
-                "level": "Medium",
-                "primaryCategory": "performance",
-                "whyFix": "他の画面上のコントロールを参照するコントロールがあると、アプリの読み込みとナビゲーションが遅くなる場合があります。これを行うと、ユーザーが他の画面に移動するまで待機するのではなく、アプリでその画面が直ちに読み込まれる可能性があります。"
               }
             }
           ],
