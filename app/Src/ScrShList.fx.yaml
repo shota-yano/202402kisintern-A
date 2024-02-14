@@ -1,9 +1,5 @@
 ScrShList As screen:
 
-    ScrShListRectangle1 As rectangle:
-        Width: =640
-        ZIndex: =1
-
     "ScrShListGallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
         DelayItemLoading: =true
         Height: =969
@@ -11,25 +7,9 @@ ScrShList As screen:
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
-        TemplateSize: =180
+        TemplateSize: =228
         Y: =167
         ZIndex: =1
-
-        ScrShListTitle1 As label:
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =38
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =20
-            Text: =ThisItem.オーダーNo
-            VerticalAlign: =VerticalAlign.Top
-            Width: =92
-            X: =274
-            Y: =2
-            ZIndex: =1
 
         ScrShListNextArrow1 As icon.ChevronRight:
             AccessibleLabel: =Self.Tooltip
@@ -61,75 +41,53 @@ ScrShList As screen:
             Width: =4
             ZIndex: =4
 
-        ScrShListLabel4 As label:
+        ScrShListLabel2_1 As label:
+            FontWeight: =FontWeight.Semibold
             Height: =44
             OnSelect: =Select(Parent)
             Size: =21
-            Text: =ThisItem.品目
-            Width: =160
-            X: =227
-            Y: =71
-            ZIndex: =5
-
-        ScrShListLabel2 As label:
-            Height: =44
-            OnSelect: =Select(Parent)
-            Size: =21
-            Text: =ThisItem.出荷済数
-            Width: =101
-            X: =286
-            Y: =40
-            ZIndex: =6
-
-        ScrShListLabel3 As label:
-            Height: =57
-            OnSelect: =Select(Parent)
-            Size: =21
-            Text: =ThisItem.出荷指示数
-            Width: =106
-            X: =249
-            Y: =115
-            ZIndex: =7
-
-        ScrShListLabel3_1 As label:
-            Height: =57
-            OnSelect: =Select(Parent)
-            Size: =21
-            Text: =ThisItem.出荷指示数
-            Width: =106
-            X: =60
-            Y: =60
-            ZIndex: =8
-
-        ScrShListLabel3_2 As label:
-            Height: =57
-            OnSelect: =Select(Parent)
-            Size: =21
-            Text: =ThisItem.出荷指示数
-            Width: =106
-            X: =21
-            Y: =61
-            ZIndex: =9
-
-        ScrShListLabel3_3 As label:
-            Height: =57
-            OnSelect: =Select(Parent)
-            Size: =21
-            Text: =ThisItem.出荷指示数
-            Width: =106
-            X: =100
-            Y: =100
-            ZIndex: =10
-
-        ScrShListLabel3_4 As label:
-            Height: =57
-            OnSelect: =Select(Parent)
-            Size: =21
-            Text: =ThisItem.出荷指示数
-            Width: =106
-            X: =21
-            Y: =14
+            Text: ="オーダーNo："&ThisItem.オーダーNo
+            Width: =380
+            X: =18
+            Y: =18
             ZIndex: =11
+
+        ScrShListLabel2_2 As label:
+            FontWeight: =FontWeight.Semibold
+            Height: =44
+            OnSelect: =Select(Parent)
+            Size: =21
+            Text: ="発注数："&ThisItem.出荷指示数
+            Width: =380
+            X: =18
+            Y: =69
+            ZIndex: =12
+
+        ScrShListLabel2_3 As label:
+            FontWeight: =FontWeight.Semibold
+            Height: =44
+            OnSelect: =Select(Parent)
+            Size: =21
+            Text: ="品目："&ThisItem.品目
+            Width: =380
+            X: =18
+            Y: =119
+            ZIndex: =13
+
+        ScrShListLabel2_4 As label:
+            FontWeight: =FontWeight.Semibold
+            Height: =44
+            OnSelect: =Select(Parent)
+            Size: =21
+            Text: ="出荷済数："&ThisItem.出荷済数
+            Width: =380
+            X: =18
+            Y: =169
+            ZIndex: =14
+
+    ScrShListRectangle1 As rectangle:
+        Width: =640
+        ZIndex: =2
 
     ScrShListIcon1 As icon.BackArrow:
         Color: =RGBA(255, 255, 255, 1)
@@ -138,7 +96,7 @@ ScrShList As screen:
         PaddingBottom: =10
         PaddingTop: =10
         Width: =100
-        ZIndex: =2
+        ZIndex: =3
 
     ScrShListLabel1 As label:
         Color: =RGBA(255, 255, 255, 1)
@@ -147,7 +105,7 @@ ScrShList As screen:
         Text: ="出荷情報"
         Width: =440
         X: =100
-        ZIndex: =3
+        ZIndex: =4
 
     ScrShListIcon2 As icon.Add:
         Color: =RGBA(255, 255, 255, 1)
@@ -157,19 +115,20 @@ ScrShList As screen:
         PaddingTop: =10
         Width: =100
         X: =540
-        ZIndex: =4
-
-    ScrShListIcon3 As icon.Search:
-        Icon: =Icon.Search
-        Y: =100
         ZIndex: =5
 
     ScrShListTextInput1 As text:
         Default: =""
         Height: =70
+        HintText: ="検索したい項目を入力"
+        PaddingLeft: =75
         Size: =21
-        Width: =560
-        X: =80
-        Y: =97
+        Width: =640
+        Y: =100
         ZIndex: =6
+
+    ScrShListIcon3 As icon.Search:
+        Icon: =Icon.Search
+        Y: =100
+        ZIndex: =7
 
