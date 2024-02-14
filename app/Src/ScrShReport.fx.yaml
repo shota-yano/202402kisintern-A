@@ -29,11 +29,11 @@ ScrShReport As screen:
         Item: =ScrShListGallery1.Selected
         OnSuccess: |-
             =Patch(在庫テーブル,
-            LookUp(在庫テーブル,品目=ScrStReportForm1.LastSubmit.品目),
-            {最終更新者:ScrStReportForm1.LastSubmit.最終更新者},
-            {在庫数:Sum(-ScrStReportForm1.LastSubmit.入荷数,
-            LookUp(在庫テーブル,品目=ScrStReportForm1.LastSubmit.品目).在庫数)},
-            {最終更新日:ScrStReportForm1.LastSubmit.最終更新日});
+            LookUp(在庫テーブル,品目=ScrShReportForm1.LastSubmit.品目),
+            {最終更新者:ScrShReportForm1.LastSubmit.最終更新者},
+            {在庫数:Sum(-ScrShReportForm1.LastSubmit.出荷済数,
+            LookUp(在庫テーブル,品目=ScrShReportForm1.LastSubmit.品目).在庫数)},
+            {最終更新日:ScrShReportForm1.LastSubmit.最終更新日});
             Back(ScreenTransition.UnCover)
         Width: =640
         Y: =102
@@ -267,7 +267,7 @@ ScrShReport As screen:
         ScrShReport出荷日_DataCard As typedDataCard.dateTimeEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="出荷日"
-            Default: =ThisItem.出荷日
+            Default: =Now()
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@出荷テーブル],DataSourceInfo.DisplayName,"出荷日")
             Fill: =RGBA(0, 0, 0, 0)
