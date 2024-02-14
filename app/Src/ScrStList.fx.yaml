@@ -5,6 +5,78 @@ ScrStList As screen:
         Width: =640
         ZIndex: =1
 
+    "ScrStListGallery2 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver5.0'":
+        DelayItemLoading: =true
+        Height: =951
+        Items: =入荷テーブル
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        OnSelect: =Navigate(ScrStReport,ScreenTransition.UnCover)
+        TemplatePadding: =0
+        TemplateSize: =90
+        Y: =185
+        ZIndex: =1
+
+        ScrStListTitle4 As label:
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.オーダーNo
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 86
+            X: =16
+            Y: =(Parent.TemplateHeight - (Self.Size * 1.8 + ScrStListSubtitle3.Size * 1.8)) / 2
+            ZIndex: =1
+
+        ScrStListSubtitle3 As label:
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.入荷数
+            VerticalAlign: =VerticalAlign.Top
+            Width: =ScrStListTitle4.Width
+            X: =ScrStListTitle4.X
+            Y: =ScrStListTitle4.Y + ScrStListTitle4.Height
+            ZIndex: =2
+
+        ScrStListNextArrow4 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            Color: =RGBA(166, 166, 166, 1)
+            Height: =50
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =16
+            PaddingLeft: =16
+            PaddingRight: =16
+            PaddingTop: =16
+            Tooltip: ="項目の詳細の表示"
+            Width: =50
+            X: =Parent.TemplateWidth - Self.Width - 12
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =3
+
+        ScrStListSeparator4 As rectangle:
+            Height: =8
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - Self.Height
+            ZIndex: =4
+
+        ScrStListRectangle5 As rectangle:
+            Height: =Parent.TemplateHeight - ScrStListSeparator4.Height
+            OnSelect: =Select(Parent)
+            Visible: =ThisItem.IsSelected
+            Width: =4
+            ZIndex: =5
+
     ScrStListLabel1 As label:
         Color: =RGBA(255, 255, 255, 1)
         Height: =110
@@ -39,4 +111,21 @@ ScrStList As screen:
         X: =535
         Y: =6
         ZIndex: =4
+
+    ScrStListTextInput1 As text:
+        Default: ="　　検索したい品目を入力"
+        Height: =75
+        Size: =21
+        Width: =640
+        Y: =110
+        ZIndex: =5
+
+    ScrStListIcon2 As icon.Search:
+        Color: =RGBA(56, 96, 178, 1)
+        Height: =46
+        Icon: =Icon.Search
+        Width: =44
+        X: =17
+        Y: =124
+        ZIndex: =6
 
