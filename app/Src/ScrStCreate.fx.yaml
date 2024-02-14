@@ -37,7 +37,7 @@ ScrStCreate As screen:
         ScrStCreateオーダーNo_DataCard1 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="オーダーNo"
-            Default: =ThisItem.オーダーNo
+            Default: =Max(ThisItem.オーダーNo)
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@入荷テーブル],DataSourceInfo.DisplayName,"オーダーNo")
             Fill: =RGBA(0, 0, 0, 0)
@@ -63,7 +63,7 @@ ScrStCreate As screen:
 
             ScrStCreateDataCardValue1 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
+                Default: =Max(ThisItem.オーダーNo)+1
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
