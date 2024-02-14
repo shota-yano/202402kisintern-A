@@ -29,7 +29,8 @@ ScrShCreate As screen:
         Icon: =Icon.Send
         OnSelect: |-
             =If(Value(ScrShCreateDataCardValue2.Text) > 0,
-            SubmitForm(ScrShCreateForm1),Error("0以上を入力してください"))
+            SubmitForm(ScrShCreateForm1),Error("0以上を入力してください"));
+            SubmitForm(ScrShCreateForm1)
         PaddingBottom: =10
         PaddingTop: =10
         Width: =100
