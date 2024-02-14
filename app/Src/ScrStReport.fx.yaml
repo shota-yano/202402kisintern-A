@@ -27,11 +27,7 @@ ScrStReport As screen:
         Color: =RGBA(255, 255, 255, 1)
         Height: =96
         Icon: =Icon.Send
-        OnSelect: |-
-            =Patch(在庫テーブル,
-            LookUp(在庫テーブル,品目="ScrStRep発注日品目Value.Text"),
-            {最終更新者:ScrStReport最終更新者DataCardValue.Text},{在庫数:ScrStReport入荷数DataCardValue.Text},{在庫数:Sum(ScrStReport入荷数DataCardValue.Text,
-            LookUp(在庫テーブル,品目="ScrStRep発注日品目Value.Text").在庫数)})
+        OnSelect: =SubmitForm(ScrShCreateForm1)
         PaddingBottom: =10
         PaddingLeft: =10
         PaddingRight: =10
@@ -48,9 +44,11 @@ ScrStReport As screen:
         NumberOfColumns: =2
         OnSuccess: |-
             =Patch(在庫テーブル,
-            LookUp(在庫テーブル,品目="ScrStRep発注日品目Value.Text"),
-            {最終更新者:ScrStReport最終更新者DataCardValue.Text},{在庫数:ScrStReport入荷数DataCardValue.Text},{在庫数:Sum(ScrStReport入荷数DataCardValue.Text,
-            LookUp(在庫テーブル,品目="ScrStRep発注日品目Value.Text").在庫数)})
+            LookUp(在庫テーブル,品目=ScrStReportForm1.LastSubmit.品目),
+            {最終更新者:ScrStReport最終更新者DataCardValue.Text},
+            {在庫数:Sum(ScrStReportForm1.LastSubmit.入荷数,
+            LookUp(在庫テーブル,品目=ScrStReportForm1.LastSubmit.品目).在庫数)});
+            Back(ScreenTransition.UnCover)
         Width: =640
         Y: =107
         ZIndex: =6
