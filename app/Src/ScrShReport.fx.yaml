@@ -36,6 +36,7 @@ ScrShReport As screen:
     ScrShReportForm1 As form:
         DataSource: =出荷テーブル
         Height: =1034
+        Item: =ScrShListGallery1.Selected
         Width: =640
         Y: =102
         ZIndex: =5

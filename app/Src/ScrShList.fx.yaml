@@ -6,6 +6,7 @@ ScrShList As screen:
         Items: =Filter(出荷テーブル,ScrShListTextInput1.Text in 品目)
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
+        OnSelect: =Navigate(ScrShReport,ScreenTransition.Cover)
         TemplatePadding: =0
         TemplateSize: =228
         Y: =167
