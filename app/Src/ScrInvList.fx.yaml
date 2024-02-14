@@ -136,7 +136,7 @@ ScrInvList As screen:
     ScrInvListIcon1 As icon.BackArrow:
         Color: =RGBA(255, 255, 255, 1)
         Icon: =Icon.BackArrow
-        OnSelect: =Navigate(ScrMenu)
+        OnSelect: =Back(ScreenTransition.UnCover)
         X: =16
         Y: =18
         ZIndex: =3
