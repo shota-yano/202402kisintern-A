@@ -27,8 +27,11 @@ ScrStReport As screen:
         Color: =RGBA(255, 255, 255, 1)
         Height: =96
         Icon: =Icon.Send
-        OnSelect: |
-            =
+        OnSelect: |-
+            =Patch(在庫テーブル,
+            LookUp(在庫テーブル,品目="ScrStRep発注日品目Value.Text"),
+            {最終更新者:ScrStReport最終更新者DataCardValue.Text},{在庫数:ScrStReport入荷数DataCardValue.Text},{在庫数:Sum(ScrStReport入荷数DataCardValue.Text,
+            LookUp(在庫テーブル,品目="ScrStRep発注日品目Value.Text").在庫数)})
         PaddingBottom: =10
         PaddingLeft: =10
         PaddingRight: =10
@@ -43,6 +46,11 @@ ScrStReport As screen:
         Height: =1029
         Item: =ScrStListGallery2.Selected
         NumberOfColumns: =2
+        OnSuccess: |-
+            =Patch(在庫テーブル,
+            LookUp(在庫テーブル,品目="ScrStRep発注日品目Value.Text"),
+            {最終更新者:ScrStReport最終更新者DataCardValue.Text},{在庫数:ScrStReport入荷数DataCardValue.Text},{在庫数:Sum(ScrStReport入荷数DataCardValue.Text,
+            LookUp(在庫テーブル,品目="ScrStRep発注日品目Value.Text").在庫数)})
         Width: =640
         Y: =107
         ZIndex: =6
@@ -99,7 +107,7 @@ ScrStReport As screen:
             Y: =0
             ZIndex: =1
 
-            DataCardKey13 As label:
+            ScrStRep発注日品目Key As label:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
@@ -110,7 +118,7 @@ ScrStReport As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue8 As label:
+            ScrStRep発注日品目Value As label:
                 AutoHeight: =true
                 DisplayMode: =Parent.DisplayMode
                 PaddingLeft: =0
@@ -120,7 +128,7 @@ ScrStReport As screen:
                 Text: =Parent.Default
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey13.Y + DataCardKey13.Height + 5
+                Y: =ScrStRep発注日品目Key.Y + ScrStRep発注日品目Key.Height + 5
                 ZIndex: =2
 
         ScrStReport発注数 As typedDataCard.textualViewCard:
