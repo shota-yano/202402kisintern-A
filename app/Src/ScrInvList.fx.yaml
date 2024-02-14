@@ -7,7 +7,7 @@ ScrInvList As screen:
     "ScrInvListGallery1 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver5.0'":
         DelayItemLoading: =true
         Height: =954
-        Items: =在庫テーブル
+        Items: =Filter(在庫テーブル,ScrInvListTextInput1.Text in 品目)
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
@@ -142,11 +142,12 @@ ScrInvList As screen:
 
     ScrInvListIcon2 As icon.Search:
         Icon: =Icon.Search
+        OnSelect: =
         Y: =103
         ZIndex: =4
 
     ScrInvListTextInput1 As text:
-        Default: ="テキスト入力"
+        Default: ="検索したい品目を入力"
         Height: =70
         Size: =21
         Width: =560
