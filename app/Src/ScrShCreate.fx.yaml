@@ -41,7 +41,8 @@ ScrShCreate As screen:
         OnSuccess: |-
             =出荷通知フロー.Run(ScrShCreateForm1.LastSubmit.オーダーNo,ScrShCreateForm1.LastSubmit.品目,
             ScrShCreateForm1.LastSubmit.出荷指示数);
-            Back(ScreenTransition.Cover)
+            Back(ScreenTransition.Cover);
+            NewForm(ScrShCreateForm1)
         Width: =640
         Y: =100
         ZIndex: =5
@@ -77,7 +78,7 @@ ScrShCreate As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =Parent.DisplayMode.View
                 Height: =70
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
@@ -234,8 +235,8 @@ ScrShCreate As screen:
                 Size: =21
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
-                X: =30
-                Y: =ScrShCreateDataCardKey5.Y + ScrShCreateDataCardKey5.Height + 5
+                X: =16
+                Y: =77
                 ZIndex: =2
 
             ScrShCreateErrorMessage5 As label:

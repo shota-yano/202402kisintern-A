@@ -27,6 +27,7 @@ ScrShReport As screen:
         DataSource: =出荷テーブル
         Height: =1034
         Item: =ScrShListGallery1.Selected
+        OnSuccess: =
         Width: =640
         Y: =102
         ZIndex: =5
