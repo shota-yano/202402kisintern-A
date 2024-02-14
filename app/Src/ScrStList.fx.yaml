@@ -177,7 +177,8 @@ ScrStList As screen:
     ScrStListTextInput1 As text:
         Default: =
         Height: =75
-        HintText: ="　　検索したい品目を入力"
+        HintText: ="検索したい品目を入力"
+        PaddingLeft: =75
         Size: =21
         Width: =640
         Y: =110
