@@ -29,7 +29,7 @@ ScrStReport As screen:
         Icon: =Icon.Send
         OnSelect: |-
             =If(Value(ScrStReport入荷数DataCardValue.Text) >= 0,
-            SubmitForm(ScrStReportForm1),Error("0以上を入力してください"));Back(ScreenTransition.UnCover)
+            SubmitForm(ScrStReportForm1),Error("0以上を入力してください"))
         PaddingBottom: =10
         PaddingLeft: =10
         PaddingRight: =10
@@ -415,7 +415,7 @@ ScrStReport As screen:
         ScrStReport最終更新日 As typedDataCard.dateTimeEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="最終更新日"
-            Default: =ThisItem.最終更新日
+            Default: =Now()
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@入荷テーブル],DataSourceInfo.DisplayName,"最終更新日")
             Fill: =RGBA(0, 0, 0, 0)
@@ -562,7 +562,7 @@ ScrStReport As screen:
 
             ScrStReport最終更新者DataCardValue As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
+                Default: =User().FullName
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
