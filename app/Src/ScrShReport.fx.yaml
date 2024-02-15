@@ -389,7 +389,7 @@ ScrShReport As screen:
         ScrShReport最終更新日_DataCard As typedDataCard.dateTimeEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="最終更新日"
-            Default: =ThisItem.最終更新日
+            Default: =Now()
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@出荷テーブル],DataSourceInfo.DisplayName,"最終更新日")
             Fill: =RGBA(0, 0, 0, 0)
