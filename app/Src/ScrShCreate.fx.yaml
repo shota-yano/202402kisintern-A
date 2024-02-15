@@ -27,7 +27,7 @@ ScrShCreate As screen:
         Color: =RGBA(255, 255, 255, 1)
         Height: =100
         Icon: =Icon.Send
-        OnSelect: =If(IsBlank(LookUp(在庫テーブル,ThisRecord.品目=ScrShCreateDataCardValue4.Text)),SubmitForm(ScrShCreateForm1),Error("在庫がありません"))
+        OnSelect: =If(IsBlank(LookUp(在庫テーブル,ThisRecord.品目=ScrShCreateDataCardValue4.Text)),Error("在庫がありません"),SubmitForm(ScrShCreateForm1))
         PaddingBottom: =10
         PaddingTop: =10
         Width: =100
