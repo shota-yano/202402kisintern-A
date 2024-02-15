@@ -296,7 +296,7 @@ ScrStReport As screen:
             DisplayName: =DataSourceInfo([@入荷テーブル],DataSourceInfo.DisplayName,"入荷日")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            Required: =false
+            Required: =true
             Update: =If(Not IsBlank(ScrStReport入荷日DateValue.SelectedDate), ScrStReport入荷日DateValue.SelectedDate + Time(Value(ScrStReport入荷日HourValue.Selected.Value), Value(ScrStReport入荷日MinuteValue.Selected.Value), 0))
             Width: =320
             X: =1
@@ -420,7 +420,7 @@ ScrStReport As screen:
             DisplayName: =DataSourceInfo([@入荷テーブル],DataSourceInfo.DisplayName,"最終更新日")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            Required: =false
+            Required: =true
             Update: =If(Not IsBlank(ScrStReport最終更新日DateValue.SelectedDate), ScrStReport最終更新日DateValue.SelectedDate + Time(Value(ScrStReport最終更新日HourValue.Selected.Value), Value(ScrStReport最終更新日MinuteValue.Selected.Value), 0))
             Width: =320
             X: =0
