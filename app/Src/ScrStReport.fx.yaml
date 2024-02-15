@@ -251,6 +251,7 @@ ScrStReport As screen:
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Format: =TextFormat.Number
                 Height: =70
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
