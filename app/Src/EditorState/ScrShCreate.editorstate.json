@@ -6382,14 +6382,7 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "If(IsBlank(LookUp(在庫テーブル,ThisRecord.品目=ScrShCreateDataCardValue4.Text)),Error(\"在庫がありません\"),If(Value( ScrShCreateDataCardValue2.Text) > 0,SubmitForm(ScrShCreateForm1),Notify(\"有効な出荷指示数を入力してください\")))",
-          "InvariantPropertyName": "OnSelect",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "OnSelect",
         "PaddingRight",
         "PaddingLeft"
       ],
@@ -6545,7 +6538,7 @@
         {
           "Category": "Behavior",
           "PropertyName": "OnSelect",
-          "RuleProviderType": "User"
+          "RuleProviderType": "Unknown"
         }
       ],
       "StyleName": "defaultIconStyle",
