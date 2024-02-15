@@ -512,7 +512,7 @@ ScrShReport As screen:
         ScrShReport最終更新者_DataCard As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="最終更新者"
-            Default: =ThisItem.最終更新者
+            Default: =User().FullName
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@出荷テーブル],DataSourceInfo.DisplayName,"最終更新者")
             Fill: =RGBA(0, 0, 0, 0)
