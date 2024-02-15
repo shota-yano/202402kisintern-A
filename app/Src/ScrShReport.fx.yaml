@@ -586,7 +586,7 @@ ScrShReport As screen:
         Icon: =Icon.Send
         OnSelect: |-
             =If(Value(ScrShReport出荷済数_DataCardDataCardValue.Text) > 0,
-            If(Value(ScrShReport出荷済数_DataCardDataCardValue.Text) < Value(LookUp(在庫テーブル,品目=ScrShReport品目DataCardValue.Text).在庫数),
+            If(Value(ScrShReport出荷済数_DataCardDataCardValue.Text) <= Value(LookUp(在庫テーブル,品目=ScrShReport品目DataCardValue.Text).在庫数),
             SubmitForm(ScrStCreateForm1),
             Notify("在庫数を超えています")),Notify("1以上を入力してください"))
         PaddingBottom: =10
