@@ -27,7 +27,7 @@ ScrShCreate As screen:
         Color: =RGBA(255, 255, 255, 1)
         Height: =100
         Icon: =Icon.Send
-        OnSelect: =If(IsBlank(LookUp(在庫テーブル,ThisRecord.品目=ScrShCreateDataCardValue4.Text)),Error("在庫がありません"),SubmitForm(ScrShCreateForm1))
+        OnSelect: =If(IsBlank(LookUp(在庫テーブル,ThisRecord.品目=ScrShCreateDataCardValue4.Text)),Error("在庫がありません"),If(Value( ScrShCreateDataCardValue2.Text) > 0,SubmitForm(ScrShCreateForm1),Error("有効な出荷指示数を入力してください")))
         PaddingBottom: =10
         PaddingTop: =10
         Width: =100
@@ -129,7 +129,7 @@ ScrShCreate As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             MaxLength: =DataSourceInfo([@出荷テーブル], DataSourceInfo.MaxLength, "品目")
-            Required: =false
+            Required: =true
             Update: =ScrShCreateDataCardValue4.Text
             Width: =640
             X: =0
@@ -201,7 +201,7 @@ ScrShCreate As screen:
             DisplayName: =DataSourceInfo([@出荷テーブル],DataSourceInfo.DisplayName,"登録日")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            Required: =false
+            Required: =true
             Update: =If(Not IsBlank(ScrShCreateDateValue3.SelectedDate), ScrShCreateDateValue3.SelectedDate + Time(Value(ScrShCreateHourValue3.Selected.Value), Value(ScrShCreateMinuteValue3.Selected.Value), 0))
             Width: =640
             X: =0
@@ -323,7 +323,7 @@ ScrShCreate As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             MaxLength: =DataSourceInfo([@出荷テーブル], DataSourceInfo.MaxLength, "出荷指示数")
-            Required: =false
+            Required: =true
             Update: =ScrShCreateDataCardValue2.Text
             Width: =640
             X: =0
@@ -396,7 +396,7 @@ ScrShCreate As screen:
             DisplayName: =DataSourceInfo([@出荷テーブル],DataSourceInfo.DisplayName,"最終更新日")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            Required: =false
+            Required: =true
             Update: =If(Not IsBlank(ScrShCreateDateValue2.SelectedDate), ScrShCreateDateValue2.SelectedDate + Time(Value(ScrShCreateHourValue2.Selected.Value), Value(ScrShCreateMinuteValue2.Selected.Value), 0))
             Width: =640
             X: =0
@@ -518,7 +518,7 @@ ScrShCreate As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             MaxLength: =DataSourceInfo([@出荷テーブル], DataSourceInfo.MaxLength, "最終更新者")
-            Required: =false
+            Required: =true
             Update: =ScrShCreateDataCardValue11.Text
             Width: =640
             X: =0
