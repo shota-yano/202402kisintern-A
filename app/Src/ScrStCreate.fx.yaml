@@ -191,7 +191,7 @@ ScrStCreate As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =
+            Update: =If(Not IsBlank(ScrStCreateDateValue1.SelectedDate), ScrStCreateDateValue1.SelectedDate + Value(ScrStCreateMinuteValue1.Selected.Value), 0)
             Width: =640
             X: =0
             Y: =2
