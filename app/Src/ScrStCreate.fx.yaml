@@ -10,7 +10,7 @@ ScrStCreate As screen:
         Size: =30
         Text: ="新規入荷情報"
         Width: =452
-        X: =88
+        X: =100
         ZIndex: =2
 
     ScrStCreateIcon2 As icon.BackArrow:
@@ -22,7 +22,7 @@ ScrStCreate As screen:
         PaddingLeft: =10
         PaddingRight: =10
         PaddingTop: =10
-        Width: =88
+        Width: =100
         ZIndex: =3
 
     ScrStCreateForm1 As form:
