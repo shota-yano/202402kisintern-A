@@ -2883,8 +2883,8 @@
         },
         {
           "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": true,
-          "AutoRuleBindingString": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "false",
           "InvariantPropertyName": "Required",
           "IsLockable": true,
           "NameMapSourceSchema": "?"
@@ -2928,7 +2928,7 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
+      "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ScrStReport最終更新日",
@@ -2949,7 +2949,7 @@
         {
           "Category": "Data",
           "PropertyName": "Required",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Data",
@@ -3068,7 +3068,7 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
+      "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "ScrStReport最終更新日DataCardKey",
@@ -3369,7 +3369,7 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
+      "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "%DateFieldValue.ID%",
       "Name": "ScrStReport最終更新日DateValue",
@@ -3676,7 +3676,7 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
+      "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ScrStReport最終更新日ErrorMessage",
@@ -3981,7 +3981,7 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
+      "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "%HourFieldValue.ID%",
       "Name": "ScrStReport最終更新日HourValue",
@@ -4297,7 +4297,7 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
+      "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "%MinuteFieldValue.ID%",
       "Name": "ScrStReport最終更新日MinuteValue",
@@ -4582,7 +4582,7 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
+      "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "%HourMinuteSeparator.ID%",
       "Name": "ScrStReport最終更新日Separator",
@@ -4859,7 +4859,7 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
+      "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "ScrStReport最終更新日StarVisible",
@@ -6418,8 +6418,8 @@
         },
         {
           "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": true,
-          "AutoRuleBindingString": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "false",
           "InvariantPropertyName": "Required",
           "IsLockable": true,
           "NameMapSourceSchema": "?"
@@ -6484,7 +6484,7 @@
         {
           "Category": "Data",
           "PropertyName": "Required",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Data",

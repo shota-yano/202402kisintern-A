@@ -272,7 +272,7 @@ ScrShReport As screen:
             DisplayName: =DataSourceInfo([@出荷テーブル],DataSourceInfo.DisplayName,"出荷日")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            Required: =false
+            Required: =true
             Update: =If(Not IsBlank(ScrShReport出荷日_DataCardDateValue.SelectedDate), ScrShReport出荷日_DataCardDateValue.SelectedDate + Time(Value(ScrShReport出荷日_DataCardHourValue.Selected.Value), Value(ScrShReport出荷日_DataCardMinuteValue.Selected.Value), 0))
             Width: =640
             X: =0
@@ -393,7 +393,7 @@ ScrShReport As screen:
             DisplayName: =DataSourceInfo([@出荷テーブル],DataSourceInfo.DisplayName,"最終更新日")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            Required: =false
+            Required: =true
             Update: =If(Not IsBlank(ScrShReport最終更新日DateValue.SelectedDate), ScrShReport最終更新日DateValue.SelectedDate + Time(Value(ScrShReport最終更新日HourValue.Selected.Value), Value(ScrShReport最終更新日MinuteValue.Selected.Value), 0))
             Width: =640
             X: =0
