@@ -473,7 +473,7 @@ ScrStCreate As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             MaxLength: =DataSourceInfo([@入荷テーブル], DataSourceInfo.MaxLength, "最終更新者")
-            Required: =false
+            Required: =true
             Update: =ScrStCreateDataCardValue4.Text
             Width: =640
             X: =0
@@ -545,7 +545,7 @@ ScrStCreate As screen:
             DisplayName: =DataSourceInfo([@入荷テーブル],DataSourceInfo.DisplayName,"最終更新日")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            Required: =false
+            Required: =true
             Update: =If(Not IsBlank(ScrStCreateDateValue3.SelectedDate), ScrStCreateDateValue3.SelectedDate + Time(Value(ScrStCreateHourValue3.Selected.Value), Value(ScrStCreateMinuteValue3.Selected.Value), 0))
             Width: =640
             X: =0
