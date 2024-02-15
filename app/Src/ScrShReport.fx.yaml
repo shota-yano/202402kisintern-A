@@ -42,6 +42,7 @@ ScrShReport As screen:
             {出荷済数:Sum(Value(ScrShReport出荷済数_DataCardDataCardValue.Text),
             LookUp(出荷テーブル,オーダーNo=ScrShReportForm1.LastSubmit.オーダーNo).出荷済数)},
             {最終更新日:ScrShReportForm1.LastSubmit.最終更新日});
+            Refresh(出荷テーブル);
             Back(ScreenTransition.UnCover);
         Width: =640
         Y: =102
