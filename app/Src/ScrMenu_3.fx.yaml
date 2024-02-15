@@ -1,0 +1,63 @@
+ScrMenu_3 As screen:
+
+    ScrMenuRectangle_3 As rectangle:
+        Width: =640
+        ZIndex: =1
+
+    ScrMenuLabelTitle_3 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =71
+        Size: =30
+        Text: ="入出庫管理アプリ"
+        Width: =355
+        X: =100
+        Y: =14
+        ZIndex: =2
+
+    ScrMenuIcon_3 As icon.BackArrow:
+        Color: =RGBA(166, 166, 166, 1)
+        Height: =100
+        Icon: =Icon.BackArrow
+        PaddingBottom: =10
+        PaddingLeft: =10
+        PaddingRight: =10
+        PaddingTop: =10
+        Width: =100
+        ZIndex: =3
+
+    ScrMenuInvButton1_3 As button:
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(175, 191, 224, 1)
+        Height: =152
+        OnSelect: =Navigate(ScrInvList)
+        Size: =30
+        Text: ="在庫情報"
+        Width: =529
+        X: =55
+        Y: =216
+        ZIndex: =4
+
+    ScrMenuButton2_3 As button:
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(175, 191, 224, 1)
+        Height: =152
+        OnSelect: =Navigate(ScrStList)
+        Size: =30
+        Text: ="入荷情報"
+        Width: =529
+        X: =55
+        Y: =491
+        ZIndex: =5
+
+    ScrMenuButton3_3 As button:
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(175, 191, 224, 1)
+        Height: =152
+        OnSelect: =Navigate(ScrShList)
+        Size: =30
+        Text: ="出荷情報"
+        Width: =529
+        X: =55
+        Y: =768
+        ZIndex: =6
+
