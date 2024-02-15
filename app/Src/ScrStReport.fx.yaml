@@ -62,6 +62,12 @@ ScrStReport As screen:
             {最終更新者:ScrStReportForm1.LastSubmit.最終更新者},
             {在庫数:ScrStReportForm1.LastSubmit.入荷数},
             {最終更新日:ScrStReportForm1.LastSubmit.最終更新日}));
+            Patch(入荷テーブル,
+            LookUp(入荷テーブル,オーダーNo=ScrShReportForm1.LastSubmit.オーダーNo),
+            {最終更新者:ScrStReportForm1.LastSubmit.最終更新者},
+            {入荷数:Sum(Value(ScrStReport入荷数DataCardValue.Text),
+            LookUp(入荷テーブル,オーダーNo=ScrShReportForm1.LastSubmit.オーダーNo).入荷数)},
+            {最終更新日:ScrShReportForm1.LastSubmit.最終更新日});
             Back(ScreenTransition.UnCover)
         Width: =640
         Y: =107
