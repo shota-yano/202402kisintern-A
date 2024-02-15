@@ -36,7 +36,13 @@ ScrShReport As screen:
             {在庫数:Sum(-ScrShReportForm1.LastSubmit.出荷済数,
             LookUp(在庫テーブル,品目=ScrShReportForm1.LastSubmit.品目).在庫数)},
             {最終更新日:ScrShReportForm1.LastSubmit.最終更新日});
-            Back(ScreenTransition.UnCover)
+            Patch(出荷テーブル,
+            LookUp(出荷テーブル,オーダーNo=ScrShReportForm1.LastSubmit.オーダーNo),
+            {最終更新者:ScrShReportForm1.LastSubmit.最終更新者},
+            {出荷済数:Sum(ScrShReportForm1.LastSubmit.出荷済数,
+            LookUp(出荷テーブル,オーダーNo=ScrShReportForm1.LastSubmit.オーダーNo).出荷済数)},
+            {最終更新日:ScrShReportForm1.LastSubmit.最終更新日});
+            Back(ScreenTransition.UnCover);
         Width: =640
         Y: =102
         ZIndex: =5
