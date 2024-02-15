@@ -17,15 +17,19 @@ ScrStReport As screen:
 
     ScrStReportIcon As icon.BackArrow:
         Color: =RGBA(255, 255, 255, 1)
+        Height: =100
         Icon: =Icon.BackArrow
         OnSelect: =Back(ScreenTransition.UnCover)
-        X: =17
-        Y: =21
+        PaddingBottom: =10
+        PaddingLeft: =10
+        PaddingRight: =10
+        PaddingTop: =10
+        Width: =100
         ZIndex: =3
 
     ScrStReportIcon1 As icon.Send:
         Color: =RGBA(255, 255, 255, 1)
-        Height: =96
+        Height: =100
         Icon: =Icon.Send
         OnSelect: |-
             =If(Value(ScrStReport入荷数DataCardValue.Text) >= 0,
@@ -34,7 +38,7 @@ ScrStReport As screen:
         PaddingLeft: =10
         PaddingRight: =10
         PaddingTop: =10
-        Width: =104
+        Width: =100
         X: =536
         Y: =5
         ZIndex: =5

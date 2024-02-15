@@ -10,6 +10,8 @@ ScrShReport As screen:
         Icon: =Icon.BackArrow
         OnSelect: =Back(ScreenTransition.UnCover)
         PaddingBottom: =10
+        PaddingLeft: =10
+        PaddingRight: =10
         PaddingTop: =10
         Width: =100
         ZIndex: =2
@@ -17,7 +19,7 @@ ScrShReport As screen:
     ScrShReportLabel1 As label:
         Color: =RGBA(255, 255, 255, 1)
         Height: =100
-        Size: =21
+        Size: =30
         Text: ="出荷実績報告"
         Width: =440
         X: =100
@@ -582,7 +584,7 @@ ScrShReport As screen:
 
     ScrShReportIcon2 As icon.Send:
         Color: =RGBA(255, 255, 255, 1)
-        Height: =96
+        Height: =100
         Icon: =Icon.Send
         OnSelect: |-
             =If(Value(ScrShReport出荷済数_DataCardDataCardValue.Text) > 0,
@@ -593,7 +595,7 @@ ScrShReport As screen:
         PaddingLeft: =10
         PaddingRight: =10
         PaddingTop: =10
-        Width: =104
+        Width: =100
         X: =536
         Y: =5
         ZIndex: =6
