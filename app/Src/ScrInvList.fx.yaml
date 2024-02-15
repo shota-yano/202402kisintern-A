@@ -1,4 +1,5 @@
 ScrInvList As screen:
+    OnVisible: =Refresh(在庫テーブル)
 
     ScrInvListTextInput1 As text:
         Default: =""
