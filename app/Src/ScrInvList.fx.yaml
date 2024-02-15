@@ -1,8 +1,20 @@
 ScrInvList As screen:
 
-    ScrInvListRectangle1 As rectangle:
+    ScrInvListTextInput1 As text:
+        Default: =""
+        Height: =82
+        HintText: ="検索したい品目を入力"
+        PaddingLeft: =75
+        Size: =21
         Width: =640
+        Y: =100
         ZIndex: =1
+
+    ScrInvListIcon2 As icon.Search:
+        Icon: =Icon.Search
+        OnSelect: =
+        Y: =103
+        ZIndex: =2
 
     "ScrInvListGallery1 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver5.0'":
         DelayItemLoading: =true
@@ -13,7 +25,7 @@ ScrInvList As screen:
         TemplatePadding: =0
         TemplateSize: =116
         Y: =182
-        ZIndex: =1
+        ZIndex: =3
 
         ScrInvListGallery1Title4 As label:
             Height: =34
@@ -123,6 +135,10 @@ ScrInvList As screen:
             Y: =75
             ZIndex: =9
 
+    ScrInvListRectangle1 As rectangle:
+        Width: =640
+        ZIndex: =4
+
     ScrInvListLabel1 As label:
         Color: =RGBA(255, 255, 255, 1)
         Height: =71
@@ -131,7 +147,7 @@ ScrInvList As screen:
         Width: =355
         X: =80
         Y: =14
-        ZIndex: =2
+        ZIndex: =5
 
     ScrInvListIcon1 As icon.BackArrow:
         Color: =RGBA(255, 255, 255, 1)
@@ -139,21 +155,5 @@ ScrInvList As screen:
         OnSelect: =Back(ScreenTransition.UnCover)
         X: =16
         Y: =18
-        ZIndex: =3
-
-    ScrInvListIcon2 As icon.Search:
-        Icon: =Icon.Search
-        OnSelect: =
-        Y: =103
-        ZIndex: =4
-
-    ScrInvListTextInput1 As text:
-        Default: =""
-        Height: =70
-        HintText: ="検索したい品目を入力"
-        Size: =21
-        Width: =560
-        X: =80
-        Y: =100
-        ZIndex: =5
+        ZIndex: =6
 
