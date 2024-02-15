@@ -1,4 +1,5 @@
 ScrStList As screen:
+    OnVisible: =Refresh(入荷テーブル)
 
     ScrStListRectangle1 As rectangle:
         Width: =640
