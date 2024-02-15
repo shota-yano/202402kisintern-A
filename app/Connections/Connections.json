@@ -1,4 +1,36 @@
 {
+  "66158830-760d-44a3-aa8a-08e2f23e54c6": {
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowDisplayName": {
+          "value": "入荷通知フロー"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "71720ee5-b1c6-4de7-9929-736abdeb1128"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowDisplayName": {
+          "value": "入荷通知フロー"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "71720ee5-b1c6-4de7-9929-736abdeb1128"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "入荷通知フロー"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "66158830-760d-44a3-aa8a-08e2f23e54c6"
+  },
   "83fe7aca-1f01-46b6-8d6c-317247d76807": {
     "connectionRef": {
       "displayName": "Excel Online (Business)",
@@ -82,37 +114,5 @@
     },
     "dependents": [],
     "id": "d3472f77-56b4-4443-91ba-ce2c1b1c8403"
-  },
-  "ec82e753-4c79-4bd7-8316-c0bcbff07d03": {
-    "connectionRef": {
-      "displayName": "Logic flows",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
-      "parameterHints": {
-        "workflowDisplayName": {
-          "value": "入荷通知フロー"
-        },
-        "workflowEntityId": {},
-        "workflowName": {
-          "value": "71720ee5-b1c6-4de7-9929-736abdeb1128"
-        }
-      },
-      "parameterHintsV2": {
-        "workflowDisplayName": {
-          "value": "入荷通知フロー"
-        },
-        "workflowEntityId": {},
-        "workflowName": {
-          "value": "71720ee5-b1c6-4de7-9929-736abdeb1128"
-        }
-      }
-    },
-    "datasets": {},
-    "dataSources": [
-      "入荷通知フロー"
-    ],
-    "dependencies": {},
-    "dependents": [],
-    "id": "ec82e753-4c79-4bd7-8316-c0bcbff07d03"
   }
 }
