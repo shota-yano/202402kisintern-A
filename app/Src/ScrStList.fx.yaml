@@ -14,7 +14,7 @@ ScrStList As screen:
         OnSelect: =Navigate(ScrStReport,ScreenTransition.UnCover)
         ShowNavigation: =true
         TemplatePadding: =0
-        TemplateSize: =199
+        TemplateSize: =225
         Transition: =Transition.Pop
         Y: =170
         ZIndex: =1
