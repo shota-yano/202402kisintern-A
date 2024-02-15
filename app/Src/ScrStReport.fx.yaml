@@ -33,7 +33,7 @@ ScrStReport As screen:
         Icon: =Icon.Send
         OnSelect: |-
             =If(Value(ScrStReport入荷数DataCardValue.Text) >= 0,
-            SubmitForm(ScrStReportForm1),Error("0以上を入力してください"))
+            SubmitForm(ScrStReportForm1),Notify("0以上を入力してください"))
         PaddingBottom: =10
         PaddingLeft: =10
         PaddingRight: =10
