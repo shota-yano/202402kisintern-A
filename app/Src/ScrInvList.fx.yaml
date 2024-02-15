@@ -141,19 +141,22 @@ ScrInvList As screen:
 
     ScrInvListLabel1 As label:
         Color: =RGBA(255, 255, 255, 1)
-        Height: =71
-        Size: =32
+        Height: =59
+        Size: =30
         Text: ="在庫情報"
-        Width: =355
-        X: =80
-        Y: =14
+        Width: =189
+        X: =116
+        Y: =20
         ZIndex: =5
 
     ScrInvListIcon1 As icon.BackArrow:
         Color: =RGBA(255, 255, 255, 1)
+        Height: =100
         Icon: =Icon.BackArrow
         OnSelect: =Back(ScreenTransition.UnCover)
-        X: =16
-        Y: =18
+        PaddingBottom: =10
+        PaddingLeft: =10
+        PaddingTop: =10
+        Width: =100
         ZIndex: =6
 
