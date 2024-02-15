@@ -664,9 +664,9 @@ ScrStCreate As screen:
         Icon: =Icon.Send
         OnSelect: |-
             =If(Value(ScrStCreateDataCardValue3.Text) >= 0,
-            SubmitForm(ScrStCreateForm1),
+            SubmitForm(ScrStCreateForm1);
+            Back(ScreenTransition.UnCover),
             Error("0以上を入力してください"));
-            Back(ScreenTransition.UnCover)
         PaddingBottom: =10
         PaddingLeft: =10
         PaddingRight: =10
