@@ -191,7 +191,7 @@ ScrStCreate As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =If(Not IsBlank(ScrStCreateDateValue1.SelectedDate), ScrStCreateDateValue1.SelectedDate + Value(ScrStCreateMinuteValue1.Selected.Value), 0)
+            Update: =If(Not IsBlank(ScrStCreateDateValue1.SelectedDate), ScrStCreateDateValue1.SelectedDate + 1, 0)
             Width: =640
             X: =0
             Y: =2
@@ -295,7 +295,7 @@ ScrStCreate As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =If(Not IsBlank(ScrStCreateDateValue2.SelectedDate), ScrStCreateDateValue2.SelectedDate , Value(ScrStCreateMinuteValue2.Selected.Value), 0)
+            Update: =If(Not IsBlank(ScrStCreateDateValue2.SelectedDate), ScrStCreateDateValue2.SelectedDate +1 , 0)
             Width: =640
             X: =0
             Y: =3
