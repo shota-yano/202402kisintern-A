@@ -132,7 +132,7 @@
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "ScrStCreateDataCardKey1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3367,7 +3367,7 @@
       "MetaDataIDKey": "%DateFieldValue.ID%",
       "Name": "ScrStCreateDateValue1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 4,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4326,7 +4326,7 @@
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ScrStCreateErrorMessage1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 5,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7825,7 +7825,7 @@
       "MetaDataIDKey": "%MinuteFieldValue.ID%",
       "Name": "ScrStCreateMinuteValue1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8860,7 +8860,7 @@
       "MetaDataIDKey": "%HourMinuteSeparator.ID%",
       "Name": "ScrStCreateSeparator1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -9680,7 +9680,7 @@
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "ScrStCreateStarVisible1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 6,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
