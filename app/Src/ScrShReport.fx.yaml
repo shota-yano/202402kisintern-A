@@ -590,7 +590,7 @@ ScrShReport As screen:
             =If(Value(ScrShReport出荷済数_DataCardDataCardValue.Text) > 0,
             If(IsBlank(LookUp(在庫テーブル,ThisRecord.品目=ScrShReport品目DataCardValue.Text)),Notify("該当品目がありません"),
             If(Value(ScrShReport出荷済数_DataCardDataCardValue.Text) <= Value(LookUp(在庫テーブル,品目=ScrShReport品目DataCardValue.Text).在庫数),
-            SubmitForm(ScrShReportForm1),Notify("在庫数を超えています")),Notify("1以上を入力してください")))
+            SubmitForm(ScrShReportForm1),Notify("在庫数を超えています"))),Notify("1以上を入力してください"))
         PaddingBottom: =10
         PaddingLeft: =10
         PaddingRight: =10
