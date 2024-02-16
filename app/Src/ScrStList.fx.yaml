@@ -1,4 +1,5 @@
 ScrStList As screen:
+    Fill: =RGBA(175, 191, 224, 1)
     OnVisible: =Refresh(入荷テーブル)
 
     ScrStListRectangle1 As rectangle:

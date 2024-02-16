@@ -1,5 +1,5 @@
 ScrInvList As screen:
-    Fill: =RGBA(255, 255, 255, 1)
+    Fill: =RGBA(175, 191, 224, 1)
     OnVisible: =Refresh(在庫テーブル)
 
     ScrInvListTextInput1 As text:
