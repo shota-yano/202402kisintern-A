@@ -8,6 +8,7 @@ ScrStList As screen:
 
     "ScrStListGallery2 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver5.0'":
         DelayItemLoading: =true
+        Fill: =RGBA(241, 244, 249, 1)
         Height: =966
         Items: =Filter(入荷テーブル,ScrStListTextInput1.Text in 品目)
         Layout: =Layout.Vertical

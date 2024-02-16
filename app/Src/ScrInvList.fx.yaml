@@ -20,6 +20,7 @@ ScrInvList As screen:
 
     "ScrInvListGallery1 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver5.0'":
         DelayItemLoading: =true
+        Fill: =RGBA(241, 244, 249, 1)
         Height: =954
         Items: =Filter(在庫テーブル,ScrInvListTextInput1.Text in 品目)
         Layout: =Layout.Vertical
