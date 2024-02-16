@@ -141,6 +141,7 @@
     "ScrStReport",
     "ScrShList",
     "ScrShCreate",
-    "ScrShReport"
+    "ScrShReport",
+    "Screen1"
   ]
 }
