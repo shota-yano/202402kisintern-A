@@ -2594,66 +2594,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.dan2-150x150"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.dan2-150x150",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "dan2-150x150",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "App.delivery"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.delivery",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "delivery",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "App.strawberry"
                 }
               ],
@@ -2665,36 +2605,6 @@
               },
               "properties": {
                 "member": "strawberry",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "App.truck"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.truck",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "truck",
                 "module": "App",
                 "type": "App"
               }
