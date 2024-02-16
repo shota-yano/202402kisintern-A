@@ -2594,19 +2594,18 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.strawberry"
+                  "fullyQualifiedName": "Screen1"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.strawberry",
+                  "fullyQualifiedName": "Screen1",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "strawberry",
-                "module": "App",
-                "type": "App"
+                "module": "Screen1",
+                "type": "Screen1"
               }
             }
           ],
@@ -2614,9 +2613,9 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "Low"
           },
-          "ruleId": "app-UnusedMediaResources",
+          "ruleId": "acc-ReadableScreenNameNeeded",
           "ruleIndex": 3
         },
         {
@@ -2624,19 +2623,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.vegetable_paprika_red"
+                  "fullyQualifiedName": "Screen1.Screen1UploadedImage.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.vegetable_paprika_red",
+                  "fullyQualifiedName": "Screen1.Screen1UploadedImage.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "vegetable_paprika_red",
-                "module": "App",
-                "type": "App"
+                "member": "AccessibleLabel",
+                "module": "Screen1",
+                "type": "Screen1.Screen1UploadedImage"
               }
             }
           ],
@@ -2646,8 +2645,68 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 3
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1.Screen1UploadedImage.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1.Screen1UploadedImage.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Screen1",
+                "type": "Screen1.Screen1UploadedImage"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1.Screen1AddMediaButton.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1.Screen1AddMediaButton.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen1",
+                "type": "Screen1.Screen1AddMediaButton"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2767,20 +2826,20 @@
               }
             },
             {
-              "id": "app-UnusedMediaResources",
+              "id": "acc-ReadableScreenNameNeeded",
               "messageStrings": {
                 "issue": {
-                  "text": "使用されていないメディア ファイル"
+                  "text": "Revise screen name"
                 }
               },
               "properties": {
                 "componentType": "app",
                 "howToFix": [
-                  "メディア ペインで未使用のメディア ファイルを削除します。"
+                  "Give the screen  a title that describes what's on the screen or what it's used for."
                 ],
-                "level": "Medium",
-                "primaryCategory": "performance",
-                "whyFix": "このメディア ファイルは、コントロールの式によって参照されていないため、不要です。削除するとパフォーマンスが向上します。"
+                "level": "Low",
+                "primaryCategory": "accessibility",
+                "whyFix": "People who are blind, have low vision, or a reading disability rely on screen titles to navigate using the screen reader. "
               }
             },
             {
