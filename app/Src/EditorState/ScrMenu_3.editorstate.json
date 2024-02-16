@@ -54,7 +54,7 @@
       "MetaDataIDKey": "",
       "Name": "Label1aaa",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -404,7 +404,7 @@
       "MetaDataIDKey": "",
       "Name": "ScrMenuButton2_3",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 4,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -670,7 +670,7 @@
       "MetaDataIDKey": "",
       "Name": "ScrMenuButton3_3",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 5,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -906,7 +906,7 @@
       "MetaDataIDKey": "",
       "Name": "ScrMenuIcon_3",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1127,7 +1127,7 @@
       "MetaDataIDKey": "",
       "Name": "ScrMenuInvButton1_3",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1396,7 +1396,7 @@
       "MetaDataIDKey": "",
       "Name": "ScrMenuLabelTitle_3",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
