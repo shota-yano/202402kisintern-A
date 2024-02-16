@@ -9,11 +9,6 @@
     "galleryTemplate3": 131,
     "galleryTemplate4": 240,
     "Host": 3,
-    "Screen1": 252,
-    "Screen1AddMedia": 257,
-    "Screen1AddMediaButton": 256,
-    "Screen1Label1": 258,
-    "Screen1UploadedImage": 255,
     "ScrInvList": 48,
     "ScrInvListGallery1": 54,
     "ScrInvListGallery1Body1": 63,
@@ -260,7 +255,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/16/2024 04:06:22",
+  "HeaderLastSavedDateTimeUTC": "02/16/2024 04:08:15",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "66158830-760d-44a3-aa8a-08e2f23e54c6": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/71720ee5-b1c6-4de7-9929-736abdeb1128\"",
@@ -282,16 +277,10 @@
     "入荷テーブル": 4,
     "入荷通知フロー": 0
   },
-  "OrderGroupControls": {
-    "Screen1AddMedia": {
-      "Screen1AddMediaButton": 1,
-      "Screen1UploadedImage": 0
-    }
-  },
+  "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "addMedia": 11,
     "button": 9,
     "datepicker": 5,
     "dropdown": 6,
@@ -299,7 +288,6 @@
     "gallery": 7,
     "htmlViewer": 8,
     "icon": 1,
-    "image": 10,
     "label": 2,
     "rectangle": 0,
     "text": 4
@@ -312,11 +300,6 @@
     "galleryTemplate3": {},
     "galleryTemplate4": {},
     "Host": {},
-    "Screen1": {},
-    "Screen1AddMedia": {},
-    "Screen1AddMediaButton": {},
-    "Screen1Label1": {},
-    "Screen1UploadedImage": {},
     "ScrInvList": {},
     "ScrInvListGallery1": {},
     "ScrInvListGallery1Body1": {},
@@ -571,11 +554,6 @@
     "galleryTemplate3": 86,
     "galleryTemplate4": 195,
     "Host": 0,
-    "Screen1": 0,
-    "Screen1AddMedia": 0,
-    "Screen1AddMediaButton": 0,
-    "Screen1Label1": 0,
-    "Screen1UploadedImage": 0,
     "ScrInvList": 3,
     "ScrInvListGallery1": 9,
     "ScrInvListGallery1Body1": 18,
