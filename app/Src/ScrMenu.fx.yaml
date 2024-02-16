@@ -1,5 +1,5 @@
 ScrMenu As screen:
-    Fill: =RGBA(153, 160, 196, 1)
+    Fill: =RGBA(175, 191, 224, 1)
 
     ScrMenuRectangle As rectangle:
         Width: =640
