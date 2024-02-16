@@ -77,7 +77,7 @@ ScrMenu As screen:
         OnSelect: =Navigate(ScrInvList,ScreenTransition.Cover)
         Width: =615
         X: =25
-        Y: =173
+        Y: =162
         ZIndex: =7
 
     ScrMenuLabel1 As label:
@@ -183,4 +183,28 @@ ScrMenu As screen:
         X: =107
         Y: =237
         ZIndex: =19
+
+    Image1 As image:
+        Height: =162
+        Image: =delivery
+        Width: =212
+        X: =403
+        Y: =809
+        ZIndex: =20
+
+    Image2 As image:
+        Height: =175
+        Image: =truck
+        Width: =227
+        X: =388
+        Y: =556
+        ZIndex: =21
+
+    Image3 As image:
+        Height: =172
+        Image: ='dan2-150x150'
+        Width: =170
+        X: =414
+        Y: =275
+        ZIndex: =22
 
