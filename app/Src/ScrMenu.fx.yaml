@@ -184,3 +184,27 @@ ScrMenu As screen:
         Y: =237
         ZIndex: =19
 
+    Image8 As image:
+        Height: =192
+        Image: =delivery
+        Width: =210
+        X: =405
+        Y: =825
+        ZIndex: =20
+
+    Image10 As image:
+        Height: =247
+        Image: =truck
+        Width: =179
+        X: =405
+        Y: =524
+        ZIndex: =21
+
+    Image11 As image:
+        Height: =198
+        Image: ='dan2-150x150'
+        Width: =192
+        X: =405
+        Y: =272
+        ZIndex: =22
+
