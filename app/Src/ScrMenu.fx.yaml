@@ -63,7 +63,7 @@ ScrMenu As screen:
         ZIndex: =6
 
     ScrMenuHtmlText As htmlViewer:
-        Height: =255
+        Height: =245
         HtmlText: |-
             ="<div style='
               margin:10px;
