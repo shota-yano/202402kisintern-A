@@ -1,4 +1,5 @@
 ScrShCreate As screen:
+    Fill: =RGBA(215, 223, 240, 1)
 
     ScrShCreateRectangle1 As rectangle:
         Width: =640
