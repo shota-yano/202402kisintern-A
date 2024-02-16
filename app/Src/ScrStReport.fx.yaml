@@ -1,4 +1,5 @@
 ScrStReport As screen:
+    Fill: =RGBA(215, 223, 240, 1)
 
     ScrStReportRectangle As rectangle:
         Height: =107

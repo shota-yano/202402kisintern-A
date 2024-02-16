@@ -69,7 +69,8 @@ ScrMenu As screen:
               margin:10px;
               height:200px;
               width:550px;
-              background-color:#00bfff;
+              background-color:#1e90ff
+            ;
               box-shadow:5px 5px 5px 0px rgba(0,0,0,0.75);
               border-radius: 50px'>
             </div>"
@@ -99,7 +100,8 @@ ScrMenu As screen:
               margin:10px;
               height:200px;
               width:550px;
-              background-color:#00bfff;
+              background-color:#1e90ff
+            ;
               box-shadow:5px 5px 5px 0px rgba(0,0,0,0.75);
               border-radius: 50px'>
             </div>"
@@ -128,7 +130,8 @@ ScrMenu As screen:
               margin:10px;
               height:200px;
               width:550px;
-              background-color:#00bfff;
+              background-color:#1e90ff
+            ;
               box-shadow:5px 5px 5px 0px rgba(0,0,0,0.75);
               border-radius: 50px'>
             </div>"
